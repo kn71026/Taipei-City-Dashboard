@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+# 將查詢 SQL 內容變成單行 + 單引號 escape
+export CHART_QUERY_TAIPEI="$(cat queries/query_taipei.sql | sed "s/'/''/g" | tr '\n' ' ')"
+export CHART_QUERY_METROTAIPEI="$(cat queries/query_metrotaipei.sql | sed "s/'/''/g" | tr '\n' ' ')"
+
+# 替換變數並輸出
+envsubst < root.template.sql | tee ../data/dashboardmanager/friendly_store_component.sql
+
+echo "✅ Created friendly_store_component.sql"
