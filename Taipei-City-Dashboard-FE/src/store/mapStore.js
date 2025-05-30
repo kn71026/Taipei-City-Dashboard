@@ -15,6 +15,7 @@ import { ArcLayer } from "@deck.gl/layers";
 import { MapboxOverlay } from "@deck.gl/mapbox";
 import axios from "axios";
 import http from "../router/axios.js";
+import * as turf from "@turf/turf";
 
 // Other Stores
 import { useAuthStore } from "./authStore";
@@ -69,9 +70,13 @@ export const useMapStore = defineStore("map", {
 		tempMarkerCoordinates: null,
 		// Store the user's current location,
 		userLocation: { latitude: null, longitude: null },
+		// Store the selection box coordinates
+		isSelecting: false,
+		selectedFeatures: [],
 	}),
 	actions: {
 		/* Initialize Mapbox */
+		// 1. Creates the mapbox instance and passes in initial configs
 		// 1. Creates the mapbox instance and passes in initial configs
 		initializeMapBox() {
 			this.map = null;
@@ -79,10 +84,12 @@ export const useMapStore = defineStore("map", {
 			this.overlay = null;
 			const MAPBOXTOKEN = import.meta.env.VITE_MAPBOXTOKEN;
 			mapboxGl.accessToken = MAPBOXTOKEN;
+
 			this.map = new mapboxGl.Map({
 				...MapObjectConfig,
 				style: mapStyle,
 			});
+
 			this.marker = new mapboxGl.Marker();
 			const geoLocate = new mapboxGl.GeolocateControl({
 				positionOptions: {
@@ -91,40 +98,17 @@ export const useMapStore = defineStore("map", {
 				trackUserLocation: true,
 				showUserHeading: true,
 			});
+
 			this.map.addControl(geoLocate);
 			this.map.addControl(new mapboxGl.NavigationControl());
 			this.map.doubleClickZoom.disable();
-			this.map
-				.on("load", () => {
-					if (!this.map) return;
-					this.overlay = new MapboxOverlay({
-						interleaved: true,
-						layers: [],
-					});
-					this.map.addControl(this.overlay);
-					this.initializeBasicLayers();
-				})
-				.on("click", (event) => {
-					if (this.popup) {
-						this.popup = null;
-					}
-					this.addPopup(event);
-				})
-				.on("dblclick", (event) => {
-					let coordinates = event.lngLat;
-					this.tempMarkerCoordinates = coordinates;
-					this.marker.setLngLat(coordinates).addTo(this.map);
-				})
-				.on("idle", () => {
-					this.loadingLayers = this.loadingLayers.filter(
-						(el) => el !== "rendering"
-					);
-				});
+			this.map.boxZoom.disable();
 
 			this.renderMarkers();
-
+			this.addSymbolSources();
 			return geoLocate;
 		},
+
 		// 2. Adds three basic layers to the map (Taipei District, Taipei Village labels, and Taipei 3D Buildings)
 		// Due to performance concerns, Taipei 3D Buildings won't be added in the mobile version
 		initializeBasicLayers() {
@@ -215,7 +199,11 @@ export const useMapStore = defineStore("map", {
 					"visible"
 				);
 			} else {
-				this.map.setLayoutProperty("metrotaipei_town", "visibility", "none");
+				this.map.setLayoutProperty(
+					"metrotaipei_town",
+					"visibility",
+					"none"
+				);
 			}
 			// if (status) {
 			// 	this.map.setLayoutProperty(
@@ -236,7 +224,11 @@ export const useMapStore = defineStore("map", {
 					"visible"
 				);
 			} else {
-				this.map.setLayoutProperty("metrotaipei_village", "visibility", "none");
+				this.map.setLayoutProperty(
+					"metrotaipei_village",
+					"visibility",
+					"none"
+				);
 			}
 			// if (status) {
 			// 	this.map.setLayoutProperty(
@@ -266,7 +258,279 @@ export const useMapStore = defineStore("map", {
 				console.error("Geolocation is not supported by this browser.");
 			}
 		},
+		toggleSelectionTool() {
+			if (!this.map) return;
 
+			// ① 切換旗標
+			this.isSelecting = !this.isSelecting;
+
+			if (this.isSelecting) {
+				this.map.boxZoom.enable();
+			}
+
+			// ② 先把舊的事件 *完全* 拿掉，避免殘留
+			if (!this.isSelecting && this._onMouseDownRef) {
+				this.map.off("mousedown", this._onMouseDownRef);
+				this._onMouseDownRef = null;
+			}
+			console.log(
+				`🔄 切換選取模式：${this.isSelecting ? "開啟" : "關閉"}
+				`
+			);
+
+			/* ---------- 選取模式開 ---------- */
+			if (this.isSelecting) {
+				let startPx = null; // 滑鼠起點 (pixel)
+				let boxEl = null; // DOM 盒子
+				let moved = false; // 判斷是否真的拖曳
+
+				console.log("✅ 選取模式已開，請按住 Shift 拖曳");
+
+				const onMouseDown = (e) => {
+					console.log("🖱️ 選取模式：滑鼠按下");
+					/* 只有「Shift + 左鍵」才進入框選 */
+					if (
+						!e.originalEvent.shiftKey ||
+						e.originalEvent.button !== 0
+					)
+						return;
+
+					startPx = e.point;
+					moved = false;
+
+					boxEl = document.createElement("div");
+					boxEl.className = "selection-box";
+					boxEl.style.left = `${startPx.x}px`;
+					boxEl.style.top = `${startPx.y}px`;
+					this.map.getContainer().appendChild(boxEl);
+					this.map.getCanvas().style.cursor = "crosshair";
+					// add   pointer-events: none;
+					boxEl.style.pointerEvents = "none"; // 讓 box 不會阻擋滑鼠事件
+
+					const onMouseMove = (e) => {
+						if (!boxEl) return;
+						moved = true; // 只要進入 move 就算有拖曳
+						const cur = e.point;
+
+						const minX = Math.min(startPx.x, cur.x);
+						const minY = Math.min(startPx.y, cur.y);
+						const maxX = Math.max(startPx.x, cur.x);
+						const maxY = Math.max(startPx.y, cur.y);
+
+						Object.assign(boxEl.style, {
+							left: `${minX}px`,
+							top: `${minY}px`,
+							width: `${maxX - minX}px`,
+							height: `${maxY - minY}px`,
+						});
+					};
+
+					const onMouseUp = (e) => {
+						if (!boxEl) return;
+
+						const canvasRect = this.map
+							.getCanvas()
+							.getBoundingClientRect();
+						const x = e.clientX - canvasRect.left;
+						const y = e.clientY - canvasRect.top;
+						const endPx = new mapboxGl.Point(x, y);
+
+						const minX = Math.min(startPx.x, endPx.x);
+						const minY = Math.min(startPx.y, endPx.y);
+						const maxX = Math.max(startPx.x, endPx.x);
+						const maxY = Math.max(startPx.y, endPx.y);
+
+						// 經緯度 log 照舊 ...
+						const sw = this.map.unproject({ x: minX, y: maxY });
+						const ne = this.map.unproject({ x: maxX, y: minY });
+
+						console.log(
+							`📦 Pixel: (${minX},${minY})-(${maxX},${maxY})`,
+							`🗺️ SW(${sw.lat.toFixed(6)},${sw.lng.toFixed(6)})`,
+							`NE(${ne.lat.toFixed(6)},${ne.lng.toFixed(6)})`
+						);
+
+						// ★★ 這裡改成 Point 物件 ★★
+						const p1 = new mapboxGl.Point(minX, minY);
+						const p2 = new mapboxGl.Point(maxX, maxY);
+
+						this.selectedFeatures = this.map.queryRenderedFeatures(
+							[p1, p2],
+							{
+								layers: this.currentVisibleLayers.filter(
+									(l) => !l.includes("-arc")
+								),
+							}
+						);
+						/** 取出所有目前可見、且「不是」 DeckGL arc 的 layer id */
+						const selectableLayers =
+							this.currentVisibleLayers.filter((id) => {
+								if (id.includes("-arc")) return false; // 跳過 deckgl arc
+								const type = id.split("-")[1]; // circle / symbol / fill …
+								// 只針對 Point / Polygon / Line，可自己加條件
+								return [
+									"circle",
+									"symbol",
+									"fill",
+									"line",
+								].includes(type);
+							});
+						console.log(this.currentVisibleLayers);
+						console.log("🗂️ 可比對圖層：", selectableLayers);
+
+						// ① 建 bbox polygon
+						const bbox = [sw.lng, sw.lat, ne.lng, ne.lat];
+						const queryPoly = turf.bboxPolygon(bbox);
+
+						// ② 對每一層跑 booleanIntersects
+						const layerResults = {};
+
+						selectableLayers.forEach((id) => {
+							const feats = this.map
+								.queryRenderedFeatures([p1, p2], {
+									layers: [id],
+								})
+								.filter((f) =>
+									turf.booleanIntersects(f, queryPoly)
+								);
+							layerResults[id] = feats;
+						});
+
+						// ③ 扁平化存回 store
+						const layerFeatureMap = new Map();
+
+						Object.entries(layerResults).forEach(([id, feats]) => {
+							layerFeatureMap.set(id, feats);
+						});
+
+						this.selectedFeatures = layerFeatureMap;
+						console.log(layerFeatureMap);
+
+						console.log(
+							"✅ 共選取",
+							[...layerFeatureMap.values()].flat().length,
+							"筆"
+						);
+
+						// Reset the highlighted features
+						[
+							"highlighted-point",
+							"highlighted-line",
+							"highlighted-fill",
+						].forEach((id) => {
+							if (this.map.getLayer(id)) this.map.removeLayer(id);
+						});
+						if (this.map.getSource("highlighted-features")) {
+							this.map.removeSource("highlighted-features");
+						}
+
+						if (!this.map.getSource("highlighted-features")) {
+							this.map.addSource("highlighted-features", {
+								type: "geojson",
+								data: {
+									type: "FeatureCollection",
+									features: [],
+								},
+							});
+						}
+
+						// Point → circle
+						this.map.addLayer({
+							id: "highlighted-point",
+							type: "circle",
+							source: "highlighted-features",
+							paint: {
+								"circle-radius": 6,
+								"circle-color": "#FF00FF",
+								"circle-stroke-width": 2,
+								"circle-stroke-color": "#fff",
+							},
+							filter: ["==", "$type", "Point"],
+						});
+
+						// LineString → line
+						this.map.addLayer({
+							id: "highlighted-line",
+							type: "line",
+							source: "highlighted-features",
+							paint: {
+								"line-color": "#FF00FF",
+								"line-width": 4,
+							},
+							filter: ["==", "$type", "LineString"],
+						});
+
+						// Polygon → fill
+						this.map.addLayer({
+							id: "highlighted-fill",
+							type: "fill",
+							source: "highlighted-features",
+							paint: {
+								"fill-color": "#FF00FF",
+								"fill-opacity": 0.3,
+							},
+							filter: ["==", "$type", "Polygon"],
+						});
+
+						const features = Array.from(
+							this.selectedFeatures.values()
+						).flat();
+						const geojson = {
+							type: "FeatureCollection",
+							features,
+						};
+
+						this.map
+							.getSource("highlighted-features")
+							.setData(geojson);
+
+						// 清理
+						boxEl?.remove();
+						boxEl = null;
+						this.map.getCanvas().style.cursor = "";
+						this.map.off("mousemove", onMouseMove);
+						this.map.off("mouseup", onMouseUp);
+
+						// 恢復地圖互動
+						this.map.dragPan.enable();
+						this.map.scrollZoom.enable();
+					};
+
+					this.map.on("mousemove", onMouseMove);
+					document.addEventListener("mouseup", onMouseUp, {
+						once: true,
+					});
+				};
+
+				// ③ 綁定並存參考，以便下次 toggle 時移除
+				this._onMouseDownRef = onMouseDown;
+				this.map.on("mousedown", onMouseDown);
+
+				/* ---------- 選取模式關 ---------- */
+			} else {
+				console.log("❌ 選取模式已關");
+				// Reset the selected features
+				this.selectedFeatures = [];
+				// Reset the highlighted features
+				[
+					"highlighted-point",
+					"highlighted-line",
+					"highlighted-fill",
+				].forEach((id) => {
+					if (this.map.getLayer(id)) {
+						this.map.removeLayer(id);
+						console.log(`🗑️ 移除圖層：${id}`);
+					}
+				});
+
+				// 清除選取框
+				const boxEl = document.querySelector(".selection-box");
+				if (boxEl) {
+					boxEl.remove();
+				}
+				this.map.boxZoom.disable();
+			}
+		},
 		/* Adding Map Layers */
 		// 1. Passes in the map_config (an Array of Objects) of a component and adds all layers to the map layer list
 		addToMapLayerList(map_config) {
@@ -354,15 +618,21 @@ export const useMapStore = defineStore("map", {
 							`https://citydashboard.taipei/geo_server/gwc/service/tms/1.0.0/taipei_vioc:${map_config.index}@EPSG:900913@pbf/{z}/{x}/{y}.pbf`,
 						],
 					});
-		
+
 					// 監聽錯誤
-					this.map.on('error', (e) => {
+					this.map.on("error", (e) => {
 						if (e.sourceId === `${map_config.layerId}-source`) {
-							console.error('Source error:', e);
+							console.error("Source error:", e);
 
 							// 清理已添加的源（如果存在）
-							if (this.map.getSource(`${map_config.layerId}-source`)) {
-								this.map.removeSource(`${map_config.layerId}-source`);
+							if (
+								this.map.getSource(
+									`${map_config.layerId}-source`
+								)
+							) {
+								this.map.removeSource(
+									`${map_config.layerId}-source`
+								);
 							}
 							// 從 loadingLayers 中移除
 							this.loadingLayers = this.loadingLayers.filter(
@@ -370,40 +640,37 @@ export const useMapStore = defineStore("map", {
 							);
 						}
 					});
-		
+
 					// 監聽源加載完成
 					const sourceLoaded = new Promise((resolve, reject) => {
 						const checkSource = (e) => {
 							if (e.sourceId === `${map_config.layerId}-source`) {
 								if (e.isSourceLoaded) {
-									this.map.off('sourcedata', checkSource);
+									this.map.off("sourcedata", checkSource);
 									resolve();
 								}
 								// 如果有錯誤也需要處理
 								if (e.error) {
-									this.map.off('sourcedata', checkSource);
+									this.map.off("sourcedata", checkSource);
 									reject(e.error);
 								}
 							}
 						};
-						
-						this.map.on('sourcedata', checkSource);
-						
+
+						this.map.on("sourcedata", checkSource);
+
 						// 設置超時
 						setTimeout(() => {
-							this.map.off('sourcedata', checkSource);
-							reject(new Error('Source load timeout'));
+							this.map.off("sourcedata", checkSource);
+							reject(new Error("Source load timeout"));
 						}, 10000);
 					});
-		
+
 					// 等待源加載完成後添加圖層
 					await sourceLoaded;
 					this.addMapLayer(map_config);
-
-
-		
 				} catch (error) {
-					console.error('Failed to add source:', error);
+					console.error("Failed to add source:", error);
 					// 清理已添加的源（如果存在）
 					if (this.map.getSource(`${map_config.layerId}-source`)) {
 						this.map.removeSource(`${map_config.layerId}-source`);
@@ -540,15 +807,15 @@ export const useMapStore = defineStore("map", {
 			const layers = Object.keys(this.deckGlLayer).map((index) => {
 				const l = this.deckGlLayer[index];
 				switch (l.type) {
-				case "ArcLayer":
-					return new ArcLayer(l.config);
-				case "AnimatedArcLayer":
-					return new AnimatedArcLayer({
-						...l.config,
-						coef: this.step / 1000,
-					});
-				default:
-					break;
+					case "ArcLayer":
+						return new ArcLayer(l.config);
+					case "AnimatedArcLayer":
+						return new AnimatedArcLayer({
+							...l.config,
+							coef: this.step / 1000,
+						});
+					default:
+						break;
 				}
 			});
 			this.overlay.setProps({
@@ -797,8 +1064,8 @@ export const useMapStore = defineStore("map", {
 		// 1. Adds a popup when the user clicks on a item. The event will be passed in.
 		addPopup(event) {
 			const formatValue = (value, key) => {
-				if (key === 'occupied_rate') {
-					return value === -99 ? '-' : value;
+				if (key === "occupied_rate") {
+					return value === -99 ? "-" : value;
 				}
 				return value;
 			};
@@ -827,10 +1094,13 @@ export const useMapStore = defineStore("map", {
 					continue;
 
 				// format properties
-				const feature = {...clickFeatureDatas[i]};
-				feature.properties = {...feature.properties};
-				Object.keys(feature.properties).forEach(key => {
-					feature.properties[key] = formatValue(feature.properties[key], key);
+				const feature = { ...clickFeatureDatas[i] };
+				feature.properties = { ...feature.properties };
+				Object.keys(feature.properties).forEach((key) => {
+					feature.properties[key] = formatValue(
+						feature.properties[key],
+						key
+					);
 				});
 
 				previousParsedLayer = clickFeatureDatas[i].layer.id;
