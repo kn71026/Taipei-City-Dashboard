@@ -1,0 +1,14 @@
+{
+  "name": "taipei-safety-data-processor",
+  "version": "1.0.0",
+  "description": "處理台北市婦幼安全事件資料的地理編碼轉換",
+  "scripts": {
+    "convert": "node convert-to-geojson.js",
+    "gen-sql": "node gen_data_sql.js"
+  },
+  "dependencies": {
+    "csv2geojson": "^5.1.1",
+    "node-fetch": "^2.6.1",
+    "csv-parse": "^5.5.3"
+  }
+} 

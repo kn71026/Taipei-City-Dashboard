@@ -1,0 +1,2249 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.52212,25.05236 ]
+    },
+    "properties": {
+    "location":"臺北市大同區捷運中山站",
+    "precinct":"大同分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.51308,25.06314 ]
+    },
+    "properties": {
+    "location":"臺北市大同區捷運大橋頭",
+    "precinct":"大同分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5259149,25.0627171 ]
+    },
+    "properties": {
+    "location":"臺北市中山區捷運中山國小站",
+    "precinct":"萬華分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.533289,25.0520603 ]
+    },
+    "properties": {
+    "location":"臺北市中山區捷運松江南京站",
+    "precinct":"中山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5491519,25.0432131 ]
+    },
+    "properties": {
+    "location":"臺北市大安區捷運忠孝敦化站",
+    "precinct":"大安分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.51903,25.04821 ]
+    },
+    "properties": {
+    "location":"臺北市中正區捷運臺北車站",
+    "precinct":"中山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5200366,25.0358492 ]
+    },
+    "properties": {
+    "location":"臺北市中正區臺灣民主紀念園區",
+    "precinct":"中正第一分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.52224,25.02694 ]
+    },
+    "properties": {
+    "location":"臺北市中正區捷運古亭站",
+    "precinct":"中正第一分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5247122,25.0848879 ]
+    },
+    "properties": {
+    "location":"臺北市士林區捷運劍潭站",
+    "precinct":"中正第二分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5025817,25.1369185 ]
+    },
+    "properties": {
+    "location":"臺北市北投區捷運新北投站",
+    "precinct":"北投分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.56426,25.05129 ]
+    },
+    "properties": {
+    "location":"臺北市松山區捷運南京三民站",
+    "precinct":"松山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5577838,24.9991506 ]
+    },
+    "properties": {
+    "location":"臺北市文山區捷運萬芳醫院站",
+    "precinct":"文山第二分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6178547,25.0553307 ]
+    },
+    "properties": {
+    "location":"臺北市南港區捷運南港展覽館站",
+    "precinct":"南港分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5760858,25.0806114 ]
+    },
+    "properties": {
+    "location":"臺北市內湖區內湖路一段667巷",
+    "precinct":"內湖分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.483372,25.0908734 ]
+    },
+    "properties": {
+    "location":"新北市蘆洲區復興路",
+    "precinct":"蘆洲分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4627009,25.0867879 ]
+    },
+    "properties": {
+    "location":"新北市蘆洲區長樂路",
+    "precinct":"蘆洲分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.479121,25.0794018 ]
+    },
+    "properties": {
+    "location":"新北市蘆洲區中山一路",
+    "precinct":"蘆洲分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4205677,24.9917252 ]
+    },
+    "properties": {
+    "location":"新北市樹林區復興路",
+    "precinct":"樹林分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3842215,24.9451036 ]
+    },
+    "properties": {
+    "location":"新北市樹林區佳園路三段",
+    "precinct":"樹林分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4547437,25.0468286 ]
+    },
+    "properties": {
+    "location":"新北市新莊區自強街",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4310471,25.0229667 ]
+    },
+    "properties": {
+    "location":"新北市新莊區民安路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4297858,25.0311205 ]
+    },
+    "properties": {
+    "location":"新北市新莊區中正路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 119.4062749,36.843497 ]
+    },
+    "properties": {
+    "location":"新北市新店區建國路",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5087419,24.9588498 ]
+    },
+    "properties": {
+    "location":"新北市新店區安康路二段",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5390574,24.9829231 ]
+    },
+    "properties": {
+    "location":"新北市新店區民權路",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5418974,24.9690492 ]
+    },
+    "properties": {
+    "location":"新北市新店區北新路一段",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5336191,24.9853769 ]
+    },
+    "properties": {
+    "location":"新北市新店區中正路",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4572638,25.0241299 ]
+    },
+    "properties": {
+    "location":"新北市板橋區龍泉街",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4572638,25.0241299 ]
+    },
+    "properties": {
+    "location":"新北市板橋區龍泉街",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4768556,25.0156039 ]
+    },
+    "properties": {
+    "location":"新北市板橋區民享街",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4775426,25.0298617 ]
+    },
+    "properties": {
+    "location":"新北市板橋區文聖街",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4519106,24.9963535 ]
+    },
+    "properties": {
+    "location":"新北市板橋區南雅南路二段",
+    "precinct":"板橋分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4587643,25.0089197 ]
+    },
+    "properties": {
+    "location":"新北市板橋區府中路",
+    "precinct":"板橋分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4450824,25.0003758 ]
+    },
+    "properties": {
+    "location":"新北市板橋區大觀路二段",
+    "precinct":"板橋分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6662074,25.0736815 ]
+    },
+    "properties": {
+    "location":"新北市汐止區忠孝東路",
+    "precinct":"汐止分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5207347,25.0086975 ]
+    },
+    "properties": {
+    "location":"新北市永和區竹林路",
+    "precinct":"永和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5162883,24.9968747 ]
+    },
+    "properties": {
+    "location":"新北市永和區民有街",
+    "precinct":"永和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 119.4066973,36.8434938 ]
+    },
+    "properties": {
+    "location":"新北市中和區錦和路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 119.9507511,31.789252 ]
+    },
+    "properties": {
+    "location":"新北市中和區華新街",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5000029,24.998384 ]
+    },
+    "properties": {
+    "location":"新北市中和區景平路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 119.4062749,36.843497 ]
+    },
+    "properties": {
+    "location":"新北市中和區員山路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4910615,24.9985879 ]
+    },
+    "properties": {
+    "location":"新北市中和區建八路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4987953,25.0044965 ]
+    },
+    "properties": {
+    "location":"新北市中和區永和路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4783098,24.9982537 ]
+    },
+    "properties": {
+    "location":"新北市中和區民利街",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4763092,25.0057447 ]
+    },
+    "properties": {
+    "location":"新北市中和區中山路三段",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5027478,25.0035533 ]
+    },
+    "properties": {
+    "location":"新北市中和區中山路二段",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4510001,24.9840581 ]
+    },
+    "properties": {
+    "location":"新北市土城區學府路一段",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4174137,24.9639696 ]
+    },
+    "properties": {
+    "location":"新北市土城區福安街",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4493473,24.9867607 ]
+    },
+    "properties": {
+    "location":"新北市土城區海山路",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4912565,25.0595938 ]
+    },
+    "properties": {
+    "location":"新北市三重區重新路三段",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5016152,25.0663809 ]
+    },
+    "properties": {
+    "location":"新北市三重區長元街",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4971392,25.0647539 ]
+    },
+    "properties": {
+    "location":"新北市三重區正義北路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4847526,25.0659175 ]
+    },
+    "properties": {
+    "location":"新北市三重區中正北路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4863882,25.0679877 ]
+    },
+    "properties": {
+    "location":"新北市三重區力行路一段",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4931307,25.0641867 ]
+    },
+    "properties": {
+    "location":"新北市三重區大同北路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4963507,25.058358 ]
+    },
+    "properties": {
+    "location":"新北市三重區大同南路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4847526,25.0659175 ]
+    },
+    "properties": {
+    "location":"新北市三重區中正北路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4842211,25.0811331 ]
+    },
+    "properties": {
+    "location":"新北市三重區仁愛街",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4971392,25.0647539 ]
+    },
+    "properties": {
+    "location":"新北市三重區正義北路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5010144,25.0689913 ]
+    },
+    "properties": {
+    "location":"新北市三重區安和路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5016152,25.0663809 ]
+    },
+    "properties": {
+    "location":"新北市三重區長元街",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4988781,25.0626232 ]
+    },
+    "properties": {
+    "location":"新北市三重區重新路二段",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4713072,25.0462417 ]
+    },
+    "properties": {
+    "location":"新北市三重區重新路五段",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3618431,24.935929 ]
+    },
+    "properties": {
+    "location":"新北市三峽區文化路",
+    "precinct":"三峽分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.371726,24.9380445 ]
+    },
+    "properties": {
+    "location":"新北市三峽區復興路",
+    "precinct":"三峽分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4438994,24.9727154 ]
+    },
+    "properties": {
+    "location":"新北市土城區金城路一段",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4595055,24.9846086 ]
+    },
+    "properties": {
+    "location":"新北市土城區金城路二段",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4510001,24.9840581 ]
+    },
+    "properties": {
+    "location":"新北市土城區學府路一段",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5027478,25.0035533 ]
+    },
+    "properties": {
+    "location":"新北市中和區中山路二段",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4763092,25.0057447 ]
+    },
+    "properties": {
+    "location":"新北市中和區中山路三段",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4506,25.02473 ]
+    },
+    "properties": {
+    "location":"新北市中和區中正路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4781931,24.999713 ]
+    },
+    "properties": {
+    "location":"新北市中和區民安街",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 119.4062749,36.843497 ]
+    },
+    "properties": {
+    "location":"新北市中和區員山路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5000029,24.998384 ]
+    },
+    "properties": {
+    "location":"新北市中和區景平路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5130939,24.9905371 ]
+    },
+    "properties": {
+    "location":"新北市中和區景新街",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5003878,24.980221 ]
+    },
+    "properties": {
+    "location":"新北市中和區興南路二段",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 119.4066973,36.8434938 ]
+    },
+    "properties": {
+    "location":"新北市中和區錦和路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5102059,25.0126733 ]
+    },
+    "properties": {
+    "location":"新北市永和區仁愛路",
+    "precinct":"永和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6319777,25.06633 ]
+    },
+    "properties": {
+    "location":"新北市汐止區原興路",
+    "precinct":"汐止分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6553962,25.0627451 ]
+    },
+    "properties": {
+    "location":"新北市汐止區新台五路一段",
+    "precinct":"汐止分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4450824,25.0003758 ]
+    },
+    "properties": {
+    "location":"新北市板橋區大觀路二段",
+    "precinct":"板橋分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4519106,24.9963535 ]
+    },
+    "properties": {
+    "location":"新北市板橋區南雅南路二段",
+    "precinct":"板橋分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4813817,25.0200903 ]
+    },
+    "properties": {
+    "location":"新北市板橋區中山路二段",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4617579,25.0145712 ]
+    },
+    "properties": {
+    "location":"新北市板橋區文化路一段",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4701257,25.026573 ]
+    },
+    "properties": {
+    "location":"新北市板橋區文化路二段",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4605784,25.0281969 ]
+    },
+    "properties": {
+    "location":"新北市板橋區裕民街",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4623342,25.0125539 ]
+    },
+    "properties": {
+    "location":"新北市板橋區縣民大道",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5336191,24.9853769 ]
+    },
+    "properties": {
+    "location":"新北市新店區中正路",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.542552,24.9847807 ]
+    },
+    "properties": {
+    "location":"新北市新店區中興路三段",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5418085,24.9528421 ]
+    },
+    "properties": {
+    "location":"新北市新店區北宜路一段",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5390574,24.9829231 ]
+    },
+    "properties": {
+    "location":"新北市新店區民權路",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5395431,24.9620599 ]
+    },
+    "properties": {
+    "location":"新北市新店區光明街",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 119.4062749,36.843497 ]
+    },
+    "properties": {
+    "location":"新北市新店區建國路",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4297858,25.0311205 ]
+    },
+    "properties": {
+    "location":"新北市新莊區中正路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.455132,25.040882 ]
+    },
+    "properties": {
+    "location":"新北市新莊區中港路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4556529,25.0493569 ]
+    },
+    "properties": {
+    "location":"新北市新莊區幸福路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4219631,25.0193471 ]
+    },
+    "properties": {
+    "location":"新北市新莊區龍安路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4269157,24.9918725 ]
+    },
+    "properties": {
+    "location":"新北市樹林區博愛街",
+    "precinct":"樹林分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3740883,25.1381672 ]
+    },
+    "properties": {
+    "location":"新北市八里區中山路三段",
+    "precinct":"蘆洲分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4627448,25.0942822 ]
+    },
+    "properties": {
+    "location":"新北市蘆洲區中正路",
+    "precinct":"蘆洲分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2936505,30.4932276 ]
+    },
+    "properties": {
+    "location":"新北市蘆洲區集賢路",
+    "precinct":"蘆洲分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4847526,25.0659175 ]
+    },
+    "properties": {
+    "location":"新北市三重區中正北路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4941226,25.0574727 ]
+    },
+    "properties": {
+    "location":"新北市三重區中正南路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4971392,25.0647539 ]
+    },
+    "properties": {
+    "location":"新北市三重區正義北路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.479281,25.0759897 ]
+    },
+    "properties": {
+    "location":"新北市三重區永福街",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4912565,25.0595938 ]
+    },
+    "properties": {
+    "location":"新北市三重區重新路三段",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4457588,24.9866737 ]
+    },
+    "properties": {
+    "location":"新北市土城區中央路一段",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4438994,24.9727154 ]
+    },
+    "properties": {
+    "location":"新北市土城區金城路一段",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5086425,24.9899786 ]
+    },
+    "properties": {
+    "location":"新北市中和區捷運路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5150307,25.0119078 ]
+    },
+    "properties": {
+    "location":"新北市永和區永和路二段",
+    "precinct":"永和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4617579,25.0145712 ]
+    },
+    "properties": {
+    "location":"新北市板橋區文化路一段",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4519106,24.9963535 ]
+    },
+    "properties": {
+    "location":"新北市板橋區南雅南路二段",
+    "precinct":"板橋分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4602166,25.0404415 ]
+    },
+    "properties": {
+    "location":"新北市新莊區思源路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.479121,25.0794018 ]
+    },
+    "properties": {
+    "location":"新北市蘆洲區中山一路",
+    "precinct":"蘆洲分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.371726,24.9380445 ]
+    },
+    "properties": {
+    "location":"新北市三峽區復興路",
+    "precinct":"三峽分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 119.4062749,36.843497 ]
+    },
+    "properties": {
+    "location":"新北市中和區中山路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5052806,24.989903 ]
+    },
+    "properties": {
+    "location":"新北市中和區復興路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5207347,25.0086975 ]
+    },
+    "properties": {
+    "location":"新北市永和區永和路",
+    "precinct":"永和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4587643,25.0089197 ]
+    },
+    "properties": {
+    "location":"新北市板橋區府中捷運站",
+    "precinct":"板橋分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5264353,24.9799723 ]
+    },
+    "properties": {
+    "location":"新北市新店區央北二路",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4297858,25.0311205 ]
+    },
+    "properties": {
+    "location":"新北市新莊區中正路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4272159,25.0113003 ]
+    },
+    "properties": {
+    "location":"新北市新莊區民安西路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4343815,25.0303694 ]
+    },
+    "properties": {
+    "location":"新北市新莊區建國一路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4847526,25.0659175 ]
+    },
+    "properties": {
+    "location":"新北市三重區中正北路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4971392,25.0647539 ]
+    },
+    "properties": {
+    "location":"新北市三重區正義北路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5998296,25.0569579 ]
+    },
+    "properties": {
+    "location":"新北市三重區重陽路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492983,25.008017 ]
+    },
+    "properties": {
+    "location":"新北市中和區中和路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5000029,24.998384 ]
+    },
+    "properties": {
+    "location":"新北市中和區景平路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5207347,25.0086975 ]
+    },
+    "properties": {
+    "location":"新北市永和區永和路",
+    "precinct":"永和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4703671,25.00931 ]
+    },
+    "properties": {
+    "location":"新北市板橋區中山路",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4587643,25.0089197 ]
+    },
+    "properties": {
+    "location":"新北市板橋區府中捷運站",
+    "precinct":"板橋分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4343815,25.0303694 ]
+    },
+    "properties": {
+    "location":"新北市新莊區建國一路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5042231,25.20714 ]
+    },
+    "properties": {
+    "location":"新北市新店區北新路",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4693549,25.0505315 ]
+    },
+    "properties": {
+    "location":"新北市三重區中興北街",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.448514,24.9914998 ]
+    },
+    "properties": {
+    "location":"新北市土城區中央路",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492983,25.008017 ]
+    },
+    "properties": {
+    "location":"新北市中和區中和路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.505623,24.9934517 ]
+    },
+    "properties": {
+    "location":"新北市中和區景安捷運站",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 119.4051914,36.8439594 ]
+    },
+    "properties": {
+    "location":"新北市永和區中山路",
+    "precinct":"永和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4716354,25.0181051 ]
+    },
+    "properties": {
+    "location":"新北市板橋區民生路",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5042231,25.20714 ]
+    },
+    "properties": {
+    "location":"新北市新店區北新路",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5449921,24.9747647 ]
+    },
+    "properties": {
+    "location":"新北市新店區寶橋路",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4310471,25.0229667 ]
+    },
+    "properties": {
+    "location":"新北市新莊區民安路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4478939,25.0369263 ]
+    },
+    "properties": {
+    "location":"新北市新莊區新泰路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.401274,25.148428 ]
+    },
+    "properties": {
+    "location":"新北市八里區中山路",
+    "precinct":"蘆洲分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5000029,24.998384 ]
+    },
+    "properties": {
+    "location":"新北市中和區景平路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.52655,24.9956 ]
+    },
+    "properties": {
+    "location":"新北市中和區秀朗路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4642376,25.0228687 ]
+    },
+    "properties": {
+    "location":"新北市板橋區陽明街",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4644444,25.0293201 ]
+    },
+    "properties": {
+    "location":"新北市板橋區民生路三段",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4701257,25.026573 ]
+    },
+    "properties": {
+    "location":"新北市板橋區文化路2段",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5342586,24.9585955 ]
+    },
+    "properties": {
+    "location":"新北市新店區碧潭路",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5336191,24.9853769 ]
+    },
+    "properties": {
+    "location":"新北市新店區中正路",
+    "precinct":"新店分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4478939,25.0369263 ]
+    },
+    "properties": {
+    "location":"新北市新莊區新泰路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.483372,25.0908734 ]
+    },
+    "properties": {
+    "location":"新北市蘆洲區復興路",
+    "precinct":"蘆洲分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5998296,25.0569579 ]
+    },
+    "properties": {
+    "location":"新北市三重區重陽路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 119.4062749,36.843497 ]
+    },
+    "properties": {
+    "location":"新北市中和區中山路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4716354,25.0181051 ]
+    },
+    "properties": {
+    "location":"新北市板橋區民生路",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4847526,25.0659175 ]
+    },
+    "properties": {
+    "location":"新北市三重區中正北路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4622088,25.0048437 ]
+    },
+    "properties": {
+    "location":"新北市板橋區重慶路",
+    "precinct":"板橋分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 119.4051914,36.8439594 ]
+    },
+    "properties": {
+    "location":"新北市永和區中山路",
+    "precinct":"永和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4312386,25.0307376 ]
+    },
+    "properties": {
+    "location":"新北市新莊區福營路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5000029,24.998384 ]
+    },
+    "properties": {
+    "location":"新北市中和區景平路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4651757,24.9845823 ]
+    },
+    "properties": {
+    "location":"新北市土城區明德路",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4499352,24.9873012 ]
+    },
+    "properties": {
+    "location":"新北市土城區裕民路",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 119.9507511,31.789252 ]
+    },
+    "properties": {
+    "location":"新北市中和區華新街",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4533366,25.046489 ]
+    },
+    "properties": {
+    "location":"新北市新莊區中華路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4873004,25.0749381 ]
+    },
+    "properties": {
+    "location":"新北市三重區自強路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4910615,24.9985879 ]
+    },
+    "properties": {
+    "location":"新北市中和區建八路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4864339,25.0084563 ]
+    },
+    "properties": {
+    "location":"新北市中和區立德街",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4269157,24.9918725 ]
+    },
+    "properties": {
+    "location":"新北市樹林區博愛街",
+    "precinct":"樹林分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492983,25.008017 ]
+    },
+    "properties": {
+    "location":"新北市中和區中和路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5114698,25.0009646 ]
+    },
+    "properties": {
+    "location":"新北市中和區中安街",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885145,25.0612951 ]
+    },
+    "properties": {
+    "location":"新北市三重區新北大道",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.37787,24.9439333 ]
+    },
+    "properties": {
+    "location":"新北市土城區金城路",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4499352,24.9873012 ]
+    },
+    "properties": {
+    "location":"新北市土城區裕民路",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5000029,24.998384 ]
+    },
+    "properties": {
+    "location":"新北市中和區景平路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5095215,25.015916 ]
+    },
+    "properties": {
+    "location":"新北市永和區保安路",
+    "precinct":"永和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4583861,25.0145242 ]
+    },
+    "properties": {
+    "location":"新北市板橋區民權路",
+    "precinct":"板橋分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4587643,25.0089197 ]
+    },
+    "properties": {
+    "location":"新北市板橋區府中路",
+    "precinct":"板橋分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4642819,25.0123194 ]
+    },
+    "properties": {
+    "location":"新北市板橋區新府路",
+    "precinct":"板橋分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4703671,25.00931 ]
+    },
+    "properties": {
+    "location":"新北市板橋區中山路",
+    "precinct":"海山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4297858,25.0311205 ]
+    },
+    "properties": {
+    "location":"新北市新莊區中正路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4602166,25.0404415 ]
+    },
+    "properties": {
+    "location":"新北市新莊區思源路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3743893,24.9457701 ]
+    },
+    "properties": {
+    "location":"新北市三峽區大觀路",
+    "precinct":"三峽分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4506,25.02473 ]
+    },
+    "properties": {
+    "location":"新北市中和區中正路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.52169,25.280485 ]
+    },
+    "properties": {
+    "location":"新北市石門區下員坑",
+    "precinct":"金山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4439702,25.0568273 ]
+    },
+    "properties": {
+    "location":"新北市新莊區中平路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4623132,25.0606615 ]
+    },
+    "properties": {
+    "location":"新北市新莊區新北大道二段",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.483518,25.0623012 ]
+    },
+    "properties": {
+    "location":"新北市三重區中華路",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4651757,24.9845823 ]
+    },
+    "properties": {
+    "location":"新北市土城區明德路",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4493473,24.9867607 ]
+    },
+    "properties": {
+    "location":"新北市土城區海山路",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.448514,24.9914998 ]
+    },
+    "properties": {
+    "location":"新北市土城區中央路",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5207347,25.0086975 ]
+    },
+    "properties": {
+    "location":"新北市永和區永和路",
+    "precinct":"永和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4312546,24.9880701 ]
+    },
+    "properties": {
+    "location":"新北市板橋區金門街",
+    "precinct":"板橋分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3595007,25.0674176 ]
+    },
+    "properties": {
+    "location":"新北市林口區文化路",
+    "precinct":"林口分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4297858,25.0311205 ]
+    },
+    "properties": {
+    "location":"新北市新莊區中正路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.499308,25.0720718 ]
+    },
+    "properties": {
+    "location":"新北市三重區秀江街",
+    "precinct":"三重分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4708685,24.9864475 ]
+    },
+    "properties": {
+    "location":"新北市土城區延吉街",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4773249,24.992161 ]
+    },
+    "properties": {
+    "location":"新北市中和區連城路",
+    "precinct":"中和分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4310471,25.0229667 ]
+    },
+    "properties": {
+    "location":"新北市新莊區民安路",
+    "precinct":"新莊分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4622088,25.0048437 ]
+    },
+    "properties": {
+    "location":"新北市板橋區重慶路",
+    "precinct":"板橋分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4595055,24.9846086 ]
+    },
+    "properties": {
+    "location":"新北市土城區金城路二段",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4640421,24.9791568 ]
+    },
+    "properties": {
+    "location":"新北市土城區明德路一段",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4296782,24.9645619 ]
+    },
+    "properties": {
+    "location":"新北市土城區中央路三段",
+    "precinct":"土城分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4300336,25.0484131 ]
+    },
+    "properties": {
+    "location":"新北市泰山區文程路",
+    "precinct":"林口分局"
+    }
+  }
+]
+}
