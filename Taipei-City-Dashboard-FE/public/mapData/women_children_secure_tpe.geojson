@@ -1,0 +1,159 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.52212,25.05236 ]
+    },
+    "properties": {
+    "地點位置":"臺北市大同區捷運中山站",
+    "管轄分局":"大同分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.51308,25.06314 ]
+    },
+    "properties": {
+    "地點位置":"臺北市大同區捷運大橋頭",
+    "管轄分局":"大同分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5259149,25.0627171 ]
+    },
+    "properties": {
+    "地點位置":"臺北市中山區捷運中山國小站",
+    "管轄分局":"萬華分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.533289,25.0520603 ]
+    },
+    "properties": {
+    "地點位置":"臺北市中山區捷運松江南京站",
+    "管轄分局":"中山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5491519,25.0432131 ]
+    },
+    "properties": {
+    "地點位置":"臺北市大安區捷運忠孝敦化站",
+    "管轄分局":"大安分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.51903,25.04821 ]
+    },
+    "properties": {
+    "地點位置":"臺北市中正區捷運臺北車站",
+    "管轄分局":"中山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5200366,25.0358492 ]
+    },
+    "properties": {
+    "地點位置":"臺北市中正區臺灣民主紀念園區",
+    "管轄分局":"中正第一分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.52224,25.02694 ]
+    },
+    "properties": {
+    "地點位置":"臺北市中正區捷運古亭站",
+    "管轄分局":"中正第一分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5247122,25.0848879 ]
+    },
+    "properties": {
+    "地點位置":"臺北市士林區捷運劍潭站",
+    "管轄分局":"中正第二分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5025817,25.1369185 ]
+    },
+    "properties": {
+    "地點位置":"臺北市北投區捷運新北投站",
+    "管轄分局":"北投分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.56426,25.05129 ]
+    },
+    "properties": {
+    "地點位置":"臺北市松山區捷運南京三民站",
+    "管轄分局":"松山分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5577838,24.9991506 ]
+    },
+    "properties": {
+    "地點位置":"臺北市文山區捷運萬芳醫院站",
+    "管轄分局":"文山第二分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6178547,25.0553307 ]
+    },
+    "properties": {
+    "地點位置":"臺北市南港區捷運南港展覽館站",
+    "管轄分局":"南港分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5760858,25.0806114 ]
+    },
+    "properties": {
+    "地點位置":"臺北市內湖區內湖路一段667巷",
+    "管轄分局":"內湖分局"
+    }
+  }
+]
+}
