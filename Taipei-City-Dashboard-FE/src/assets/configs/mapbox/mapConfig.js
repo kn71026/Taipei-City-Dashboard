@@ -525,4 +525,18 @@ export const maplayerCommonLayout = {
 			60,
 		],
 	},
+	"symbol-hospital": {
+		"icon-image": "hospital",
+		"icon-size": [
+			"interpolate",
+			["linear"],
+			["zoom"],
+			11.99,
+			1,
+			14,
+			1.5,
+			22,
+			2,
+		],
+	},
 };
