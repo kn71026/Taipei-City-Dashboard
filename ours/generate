@@ -1,0 +1,38 @@
+#!/bin/bash
+set -e
+
+# Check if folder name is provided
+if [ -z "$1" ]; then
+    echo "❌ Please provide a folder name"
+    echo "Usage: $0 <folder_name>"
+    exit 1
+fi
+
+FOLDER_NAME=$1
+QUERIES_DIR="$FOLDER_NAME"
+TEMPLATE_FILE="$QUERIES_DIR/root.template.sql"
+
+# Check if queries directory exists
+if [ ! -d "$QUERIES_DIR" ]; then
+    echo "❌ Directory $QUERIES_DIR does not exist"
+    exit 1
+fi
+
+# Check if template file exists
+if [ ! -f "$TEMPLATE_FILE" ]; then
+    echo "❌ Template file $TEMPLATE_FILE does not exist"
+    exit 1
+fi
+
+# Create sql directory if it doesn't exist
+mkdir -p "$QUERIES_DIR/sql"
+
+# 將查詢 SQL 內容變成單行 + 單引號 escape
+export CHART_QUERY_TAIPEI="$(cat $QUERIES_DIR/sql/query_taipei.sql | sed "s/'/''/g" | tr '\n' ' ')"
+export CHART_QUERY_METROTAIPEI="$(cat $QUERIES_DIR/sql/query_metrotaipei.sql | sed "s/'/''/g" | tr '\n' ' ')"
+
+# 替換變數並輸出
+OUTPUT_FILE="$QUERIES_DIR/sql/${FOLDER_NAME}_component.sql"
+envsubst < "$TEMPLATE_FILE" | tee "$OUTPUT_FILE"
+
+echo "✅ Created ${OUTPUT_FILE}"
