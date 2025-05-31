@@ -242,12 +242,17 @@ watch(
 	{ immediate: true }
 ); // 首次也同步一次
 
-function toggleCluster() {
+function toggleCluster(map_config) {
 	showCluster.value = !showCluster.value;
+
+	const baseLayersToHide = map_config.map(
+		(el) => `${el.index}-${el.type}-${el.city}`
+	);
+
 	mapStore.toggleAggregationLayer(
-		"youbike_realtime_metrotaipei-symbol-metrotaipei",
+		map_config,
 		showCluster.value,
-		["youbike_realtime_metrotaipei-symbol-metrotaipei"]
+		baseLayersToHide
 	);
 }
 </script>
@@ -467,7 +472,7 @@ function toggleCluster() {
 				<p>聚合</p>
 				<input
 					v-model="showCluster"
-					@click="toggleCluster"
+					@click="() => toggleCluster(config.map_config)"
 					type="checkbox"
 				/>
 				<span class="toggleswitch-slider" />
