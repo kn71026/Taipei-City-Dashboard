@@ -231,6 +231,7 @@ function returnChartComponent(name, svg) {
 }
 // 預設範圍
 const filterRange = ref([0, 100]);
+const showCluster = ref(false);
 
 // Sync to the map store for filtering
 watch(
@@ -240,6 +241,15 @@ watch(
 	},
 	{ immediate: true }
 ); // 首次也同步一次
+
+function toggleCluster() {
+	showCluster.value = !showCluster.value;
+	mapStore.toggleAggregationLayer(
+		"youbike_realtime_metrotaipei-symbol-metrotaipei",
+		showCluster.value,
+		["youbike_realtime_metrotaipei-symbol-metrotaipei"]
+	);
+}
 </script>
 
 <template>
@@ -453,6 +463,15 @@ watch(
 			/>
 			<p>{{ filterRange }}</p>
 			<RangeSlider :min="0" :max="100" v-model="filterRange" />
+			<label class="toggleswitch">
+				<p>聚合</p>
+				<input
+					v-model="showCluster"
+					@click="toggleCluster"
+					type="checkbox"
+				/>
+				<span class="toggleswitch-slider" />
+			</label>
 		</div>
 		<div
 			v-else-if="

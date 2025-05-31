@@ -1614,5 +1614,131 @@ export const useMapStore = defineStore("map", {
 				]);
 			});
 		},
+
+		/*Aggregation Functions */
+		toggleAggregationLayer(layerId, status, baseLayersToHide = []) {
+			if (!this.map) return;
+
+			if (!this.map.getSource(`${layerId}_source`)) {
+				this.addClusterLayers(layerId);
+			}
+
+			const visibility = status ? "visible" : "none";
+			const sublayers = ["symbol", "count", "point"];
+
+			// 顯示/隱藏聚合層
+			sublayers.forEach((suffix) => {
+				const id = `${layerId}-${suffix}`;
+				if (this.map.getLayer(id)) {
+					this.map.setLayoutProperty(id, "visibility", visibility);
+				}
+			});
+
+			// 顯示狀態記錄
+			if (status) {
+				sublayers.forEach((suffix) => {
+					const id = `${layerId}-${suffix}`;
+					if (!this.currentVisibleLayers.includes(id)) {
+						this.currentVisibleLayers.push(id);
+					}
+				});
+			} else {
+				this.currentVisibleLayers = this.currentVisibleLayers.filter(
+					(id) =>
+						!sublayers.map((s) => `${layerId}-${s}`).includes(id)
+				);
+			}
+
+			// 🚫 額外關閉基本圖層
+			baseLayersToHide.forEach((id) => {
+				if (this.map.getLayer(id)) {
+					this.map.setLayoutProperty(id, "visibility", "none");
+					this.currentVisibleLayers =
+						this.currentVisibleLayers.filter((l) => l !== id);
+				}
+			});
+		},
+
+		// ✅ 初始化聚合圖層（symbol, count, point）
+		addClusterLayers(layerId) {
+			if (!this.map) return;
+
+			const sourceId = `${layerId}_source`;
+
+			this.map.addSource(sourceId, {
+				type: "geojson",
+				data: "/mapData/youbike_realtime_metrotaipei.geojson", // ✅ hardcoded GeoJSON
+				cluster: true,
+				clusterMaxZoom: 14,
+				clusterRadius: 50,
+			});
+
+			// 分級聚合圖層 (symbol)
+			this.map.addLayer({
+				id: `${layerId}-symbol`,
+				type: "circle",
+				source: sourceId,
+				filter: ["has", "point_count"],
+				paint: {
+					"circle-color": [
+						"step",
+						["get", "point_count"],
+						"#a0d8ef",
+						10,
+						"#51bbd6",
+						50,
+						"#3182bd",
+						100,
+						"#08519c",
+					],
+					"circle-radius": [
+						"step",
+						["get", "point_count"],
+						12,
+						10,
+						18,
+						50,
+						24,
+						100,
+						30,
+					],
+					"circle-stroke-width": 1,
+					"circle-stroke-color": "#fff",
+				},
+			});
+
+			// 聚合數字圖層 (count)
+			this.map.addLayer({
+				id: `${layerId}-count`,
+				type: "symbol",
+				source: sourceId,
+				filter: ["has", "point_count"],
+				layout: {
+					"text-field": "{point_count_abbreviated}",
+					"text-font": [
+						"DIN Offc Pro Medium",
+						"Arial Unicode MS Bold",
+					],
+					"text-size": 12,
+				},
+				paint: {
+					"text-color": "#ffffff",
+				},
+			});
+
+			// 非聚合的點 (point)
+			this.map.addLayer({
+				id: `${layerId}-point`,
+				type: "symbol",
+				source: sourceId,
+				filter: ["!", ["has", "point_count"]],
+				layout: {
+					"icon-image": "bike_green", // 這是你 addImage() 的名稱
+					"icon-size": 1.2,
+					"icon-allow-overlap": true,
+					"icon-anchor": "bottom",
+				},
+			});
+		},
 	},
 });
