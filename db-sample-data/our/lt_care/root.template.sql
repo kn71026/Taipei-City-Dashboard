@@ -66,6 +66,17 @@ VALUES (
             "fill-outline-color": "red"   
         }',
         '[{"key":"hosp_name","name":"機構名稱"},{"key":"hosp_addr","name":"地址"},{"key":"phone","name":"電話"}]'
+    ),
+    (
+        '7',
+        'elder_care_location_dot',
+        '長照機構點',
+        'circle',
+        'geojson',
+        'big',
+        null,
+        '{"circle-color":"#ffffff","circle-opacity":0.5,"circle-radius":3}',
+        '[{"key":"hosp_name","name":"機構名稱"},{"key":"hosp_addr","name":"地址"},{"key":"phone","name":"電話"}]'
     );
 
 -- query_charts
@@ -95,7 +106,7 @@ INSERT INTO
 VALUES (
         'elder_care_location',
         'null',
-        '{5}',
+        '{5,7}',
         '{}',
         'static',
         NULL,
@@ -117,7 +128,7 @@ VALUES (
     (
         'elder_care_location',
         'null',
-        '{5,6}',
+        '{6,7}',
         '{}',
         'static',
         NULL,
