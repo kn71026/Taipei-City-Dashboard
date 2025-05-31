@@ -30,28 +30,30 @@ const emits = defineEmits([
 
 function returnIcon(name) {
 	switch (name) {
-	case "bus":
-		return bus;
-	case "metro":
-		return metro;
-	case "triangle_green":
-		return triangle_green;
-	case "triangle_white":
-		return triangle_white;
-	case "bike_green":
-		return bike_green;
-	case "bike_orange":
-		return bike_orange;
-	case "bike_red":
-		return bike_red;
-	case "cross_bold":
-		return cross_bold;
-	case "cross_normal":
-		return cross_normal;
-	case "cctv":
-		return cctv;
-	default:
-		return "";
+		case "bus":
+			return bus;
+		case "metro":
+			return metro;
+		case "triangle_green":
+			return triangle_green;
+		case "triangle_white":
+			return triangle_white;
+		case "bike_green":
+			return bike_green;
+		case "bike_orange":
+			return bike_orange;
+		case "bike_red":
+			return bike_red;
+		case "cross_bold":
+			return cross_bold;
+		case "cross_normal":
+			return cross_normal;
+		case "cctv":
+			return cctv;
+		case "uv_station":
+			return uv_station;
+		default:
+			return "";
 	}
 }
 
