@@ -46,7 +46,7 @@ VALUES (
         'big',
         'heatmap',
         '{"circle-color":"#4CAF50","circle-radius":6,"circle-opacity":0.8,"circle-stroke-width":1,"circle-stroke-color":"#ffffff"}',
-        '[{"key":"location","name":"地點"},{"key":"precinct","name":"警察分局"}]'
+        '[{"key":"location","name":"location"},{"key":"precinct","name":"precinct"}]'
     ),
     (
         '2',
@@ -57,7 +57,7 @@ VALUES (
         'big',
         'heatmap',
         '{"circle-color":"#4CAF50","circle-radius":6,"circle-opacity":0.8,"circle-stroke-width":1,"circle-stroke-color":"#ffffff"}',
-        '[{"key":"location","name":"地點"},{"key":"precinct","name":"警察分局"}]'
+        '[{"key":"location","name":"location"},{"key":"precinct","name":"precinct"}]'
     );
 
 -- query_charts
