@@ -108,6 +108,32 @@ export const useMapStore = defineStore("map", {
 			this.map.addControl(new mapboxGl.NavigationControl());
 			this.map.doubleClickZoom.disable();
 			this.map.boxZoom.disable();
+			this.map
+				.on("load", () => {
+					if (!this.map) return;
+					this.overlay = new MapboxOverlay({
+						interleaved: true,
+						layers: [],
+					});
+					this.map.addControl(this.overlay);
+					this.initializeBasicLayers();
+				})
+				.on("click", (event) => {
+					if (this.popup) {
+						this.popup = null;
+					}
+					this.addPopup(event);
+				})
+				.on("dblclick", (event) => {
+					let coordinates = event.lngLat;
+					this.tempMarkerCoordinates = coordinates;
+					this.marker.setLngLat(coordinates).addTo(this.map);
+				})
+				.on("idle", () => {
+					this.loadingLayers = this.loadingLayers.filter(
+						(el) => el !== "rendering"
+					);
+				});
 
 			this.renderMarkers();
 			this.addSymbolSources();
