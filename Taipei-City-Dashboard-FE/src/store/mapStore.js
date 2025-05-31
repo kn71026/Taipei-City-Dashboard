@@ -1645,8 +1645,9 @@ export const useMapStore = defineStore("map", {
 		},
 
 		/*Aggregation Functions */
-		toggleAggregationLayer(layerId, status, baseLayersToHide = []) {
+		toggleAggregationLayer(mapConfig, status, baseLayersToHide = []) {
 			if (!this.map) return;
+			const layerId = mapConfig[0].index; // Note: Can be multiple layers
 
 			if (!this.map.getSource(`${layerId}_source`)) {
 				this.addClusterLayers(layerId);
@@ -1678,10 +1679,12 @@ export const useMapStore = defineStore("map", {
 				);
 			}
 
-			// 🚫 額外關閉基本圖層
+			// 🚫 額外 toggle 基本圖層
 			baseLayersToHide.forEach((id) => {
 				if (this.map.getLayer(id)) {
-					this.map.setLayoutProperty(id, "visibility", "none");
+					// opposite of the aggregation layer status
+					const visibility = status ? "none" : "visible";
+					this.map.setLayoutProperty(id, "visibility", visibility);
 					this.currentVisibleLayers =
 						this.currentVisibleLayers.filter((l) => l !== id);
 				}
@@ -1693,10 +1696,9 @@ export const useMapStore = defineStore("map", {
 			if (!this.map) return;
 
 			const sourceId = `${layerId}_source`;
-
 			this.map.addSource(sourceId, {
 				type: "geojson",
-				data: "/mapData/youbike_realtime_metrotaipei.geojson", // ✅ hardcoded GeoJSON
+				data: `/mapData/${layerId}.geojson`,
 				cluster: true,
 				clusterMaxZoom: 14,
 				clusterRadius: 50,
