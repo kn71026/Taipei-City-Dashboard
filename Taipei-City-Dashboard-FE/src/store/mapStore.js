@@ -73,6 +73,11 @@ export const useMapStore = defineStore("map", {
 		// Store the selection box coordinates
 		isSelecting: false,
 		selectedFeatures: [],
+		// Filter properties for the map
+		filter: {
+			min: null,
+			max: null,
+		},
 	}),
 	actions: {
 		/* Initialize Mapbox */
@@ -1590,6 +1595,24 @@ export const useMapStore = defineStore("map", {
 			this.currentVisibleLayers = [];
 			this.removePopup();
 			this.tempMarkerCoordinates = null;
+		},
+
+		/* Filter Functions */
+		setFilterRange(minMax) {
+			this.filter = {
+				min: minMax[0],
+				max: minMax[1],
+			};
+
+			this.currentVisibleLayers.forEach((layerId) => {
+				if (!this.map.getLayer(layerId)) return;
+
+				this.map.setFilter(layerId, [
+					"all",
+					[">=", ["get", "total_bikes"], this.filter.min],
+					["<=", ["get", "total_bikes"], this.filter.max],
+				]);
+			});
 		},
 	},
 });
