@@ -216,6 +216,8 @@ export const useMapStore = defineStore("map", {
 				"bike_orange",
 				"bike_red",
 				"cctv",
+				"hospital",
+				"uv_station",
 			];
 			images.forEach((element) => {
 				this.map.loadImage(
@@ -973,10 +975,11 @@ export const useMapStore = defineStore("map", {
 					};
 				});
 
-			let lngStart = 121.42955;
-			let lngEnd = 121.68351;
-			let latStart = 24.94679;
-			let latEnd = 25.21811;
+			// We have update the map range to cover the metro taipei
+			let lngStart = 120.8887;
+			let lngEnd = 122.1751;
+			let latStart = 24.537154;
+			let latEnd = 25.377;
 
 			let targetPoints = [];
 			let gridSize = 0.001;

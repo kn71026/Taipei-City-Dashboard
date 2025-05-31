@@ -1,0 +1,1489 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.552435,25.121129 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市至善老人安養護中心",
+    "hosp_addr":"臺北市士林區仰德大道2段2巷50號",
+    "phone":"02-28832666*153",
+    "district":"士林區",
+    "ratio":41.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.526327,25.112281 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立永青老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市士林區中山北路六段427巷8號1-4樓",
+    "phone":"02-28761908",
+    "district":"士林區",
+    "ratio":41.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.526793,25.107691 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立松園老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市士林區德行東路61巷1、2、3號1、2樓",
+    "phone":"02-88662097",
+    "district":"士林區",
+    "ratio":41.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.525992,25.083176 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立柏安老人養護所",
+    "hosp_addr":"臺北市士林區中山北路6段290巷52號、54號1樓",
+    "phone":"02-28333536",
+    "district":"士林區",
+    "ratio":41.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.532261,25.114654 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立祇福老人養護所",
+    "hosp_addr":"臺北市士林區忠誠路2段10巷11號、13號1-2樓",
+    "phone":"02-28317713",
+    "district":"士林區",
+    "ratio":41.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.524567,25.091954 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立祐心老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市士林區至誠路1段305巷3弄14號1-2樓",
+    "phone":"02-28310432",
+    "district":"士林區",
+    "ratio":41.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.513123,25.076063 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立上美老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市士林區重慶北路4段162號1-4樓",
+    "phone":"02-28122366",
+    "district":"士林區",
+    "ratio":41.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.511415,25.024913 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立荷園老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市士林區葫蘆街33號2~3樓",
+    "phone":"02-28163696",
+    "district":"士林區",
+    "ratio":41.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.50972,25.079975 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立璞園老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市士林區葫蘆街33號4、5、6樓",
+    "phone":"02-28163696",
+    "district":"士林區",
+    "ratio":41.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.529656,25.120287 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立天玉老人長期照顧中心(長期照護型)",
+    "hosp_addr":"臺北市士林區天玉街38巷18弄18號1-6樓",
+    "phone":"02-28720239",
+    "district":"士林區",
+    "ratio":41.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.517595,25.075218 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立敦煌老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市大同區敦煌路80巷3號及3-1號1樓",
+    "phone":"02-25945133",
+    "district":"大同區",
+    "ratio":544.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512844,25.059779 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立建順老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市大同區甘州街55號3樓",
+    "phone":"02-25520199",
+    "district":"大同區",
+    "ratio":544.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512844,25.059779 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立仁家老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市大同區甘州街55號5~6樓",
+    "phone":"02-25530799",
+    "district":"大同區",
+    "ratio":544.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.515171,25.055994 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立慧光老人養護所",
+    "hosp_addr":"臺北市大同區寧夏路32號5樓",
+    "phone":"02-25582275",
+    "district":"大同區",
+    "ratio":544.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.518471,25.050031 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立德寶老人養護所",
+    "hosp_addr":"臺北市大同區長安西路78巷4弄11號1-4樓",
+    "phone":"02-25522062",
+    "district":"大同區",
+    "ratio":544.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.509189,25.085583 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立祥安尊榮老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市大同區延平北路3段4號2樓",
+    "phone":"02-25860098",
+    "district":"大同區",
+    "ratio":544.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.514513,25.054346 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立晉安老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市大同區重慶北路3段175、177號1~4樓",
+    "phone":"02-25982301",
+    "district":"大同區",
+    "ratio":544.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512844,25.059779 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立建興老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市大同區甘州街55號2樓",
+    "phone":"02-25520199",
+    "district":"大同區",
+    "ratio":544.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.51569,25.049049 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立祥寶尊榮老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市大同區太原路97巷4、6號1-5樓",
+    "phone":"02-25501118",
+    "district":"大同區",
+    "ratio":544.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.544277,25.03012 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立上上老人養護所",
+    "hosp_addr":"臺北市大安區復興南路1段279巷14號、16號1樓",
+    "phone":"02-27032223",
+    "district":"大安區",
+    "ratio":121.1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.534075,25.024603 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立天恩老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市大安區新生南路3段7-4號、9-4號、9-5號",
+    "phone":"02-23620457",
+    "district":"大安區",
+    "ratio":121.1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523545,25.059957 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立松湛園老人養護所",
+    "hosp_addr":"臺北市中山區錦州街4巷1號2樓及2樓之1",
+    "phone":"02-25652281",
+    "district":"中山區",
+    "ratio":193
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.521633,25.057639 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立松青園老人養護所",
+    "hosp_addr":"臺北市中山區民生西路30號2樓、2樓之1~4",
+    "phone":"02-25110903",
+    "district":"中山區",
+    "ratio":193
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.543612,25.066886 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立仁群老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市中山區民族東路512巷14號1-2樓、16號2樓",
+    "phone":"02-25013369",
+    "district":"中山區",
+    "ratio":193
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.53317,25.064762 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立龍江老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市中山區長安東路1段63號4樓 ",
+    "phone":"02-25672208",
+    "district":"中山區",
+    "ratio":193
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.538014,25.046498 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立法泉老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市中山區八德路2段251號2樓",
+    "phone":"02-87731706",
+    "district":"中山區",
+    "ratio":193
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.521853,25.051438 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立晨欣老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市中山區中山北路2段96巷19號3樓",
+    "phone":"02-25365888",
+    "district":"中山區",
+    "ratio":193
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.543087,25.067401 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立群仁老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市中山區民族東路512巷14號3~5樓",
+    "phone":"02-25010048",
+    "district":"中山區",
+    "ratio":193
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.533262,25.061122 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立福成老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市中山區松江路374、380、382號4樓",
+    "phone":"02-25982507",
+    "district":"中山區",
+    "ratio":193
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.533262,25.061122 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立福喜老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市中山區松江路374、380、382號7樓",
+    "phone":"02-25919087",
+    "district":"中山區",
+    "ratio":193
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.533477,25.013686 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立博愛老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市中正區汀州路3段56號2樓",
+    "phone":"02-23671050  02-23671819",
+    "district":"中正區",
+    "ratio":189.7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.509232,25.026297 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立明德老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市中正區紹安街220巷2號、4號1樓",
+    "phone":"02-23090381 ",
+    "district":"中正區",
+    "ratio":189.7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.53158,25.035318 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立大園老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市中正區新生南路1段124之3號1-4樓",
+    "phone":"02-33931661",
+    "district":"中正區",
+    "ratio":189.7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.596854,25.069103 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立童音老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市內湖區民權東路6段280巷19弄1、3、5、7號1樓",
+    "phone":"02-26345131  ",
+    "district":"內湖區",
+    "ratio":46.7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.607888,25.075744 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立銀髮族老人養護所",
+    "hosp_addr":"臺北市內湖區成功路2段488號2、3樓及490號2樓",
+    "phone":"02-27926006",
+    "district":"內湖區",
+    "ratio":46.7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5897,25.082335 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立祥家老人養護所",
+    "hosp_addr":"臺北市內湖區內湖路二段253巷1弄1、3號1~2樓",
+    "phone":"02-27922281",
+    "district":"內湖區",
+    "ratio":46.7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.579618,25.079269 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立湖濱老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市內湖區內湖路2段179巷58、60號1樓",
+    "phone":"02-27933081",
+    "district":"內湖區",
+    "ratio":46.7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.579858,25.074048 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立文德老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市內湖區陽光街70之3、72之1號1樓",
+    "phone":"02-26581303",
+    "district":"內湖區",
+    "ratio":46.7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.574431,24.998205 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立慧誠老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市文山區木柵路2段163、165號1-4樓",
+    "phone":"02-29392222",
+    "district":"文山區",
+    "ratio":88.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.55474,24.981545 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立心慈老人養護所",
+    "hosp_addr":"臺北市文山區辛亥路5段120之1號1-4樓",
+    "phone":"02-29314730",
+    "district":"文山區",
+    "ratio":88.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5582,24.99769 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市文山老人養護中心",
+    "hosp_addr":"臺北市文山區興隆路2段95巷8號3-6樓",
+    "phone":"02-89313190",
+    "district":"文山區",
+    "ratio":88.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.584191,24.989314 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市兆如老人安養護中心",
+    "hosp_addr":"臺北市文山區政大二街129號",
+    "phone":"02-86616365",
+    "district":"文山區",
+    "ratio":88.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.567321,25.001951 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立蓮馨老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市文山區萬和街6號8樓",
+    "phone":"02-82300373",
+    "district":"文山區",
+    "ratio":88.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.558037,24.998518 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市政府社會局老人自費安養中心",
+    "hosp_addr":"臺北市文山區興隆路4段109巷30弄6號",
+    "phone":"02-29393147",
+    "district":"文山區",
+    "ratio":88.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.539913,24.994113 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立美安老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市文山區溪口街1巷5號3-4樓",
+    "phone":"02-29316388",
+    "district":"文山區",
+    "ratio":88.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.555092,24.9996 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立慈安老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市文山區興隆路1段2、4號1~4樓",
+    "phone":"02-29337745",
+    "district":"文山區",
+    "ratio":88.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5582,24.99769 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立慧華老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市文山區興隆路2段154巷11號1樓",
+    "phone":"02-29356272",
+    "district":"文山區",
+    "ratio":88.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.54091,24.991471 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立三園老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市文山區車前路12號3-4樓",
+    "phone":"02-29321147",
+    "district":"文山區",
+    "ratio":88.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.539913,24.994113 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立景安老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市文山區溪口街1巷5號1-2樓",
+    "phone":"02-29325698",
+    "district":"文山區",
+    "ratio":88.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.543279,24.9911 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立景興老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市文山區景興路222號3樓",
+    "phone":"02-29349412",
+    "district":"文山區",
+    "ratio":88.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.567726,25.002008 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立萬芳老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市文山區萬和街8號3樓",
+    "phone":"02-22303000",
+    "district":"文山區",
+    "ratio":88.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.466511,25.118905 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市立浩然敬老院",
+    "hosp_addr":"臺北市北投區知行路75號",
+    "phone":"02-28581081",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469269,25.120463 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立精英國際老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區關渡路60、62之1號1樓",
+    "phone":"02-28582701",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.527779,25.127852 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立全家老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區行義路96巷1號1-2樓",
+    "phone":"02-28761692",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.508618,25.126554 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立北投老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區公館路231巷20號1樓",
+    "phone":"02-28937412",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.496762,25.135476 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立貴族老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區大業路452巷2號2-5樓",
+    "phone":"02-28965555",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.496876,25.131474 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立豪門老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區大業路452巷2號6-9樓",
+    "phone":"02-28965555",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.547427,25.150797 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立陽明山老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區紗帽路116號1樓",
+    "phone":"02-28615006",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.502983,25.128654 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立高德老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區磺港路156號1-3樓",
+    "phone":"02-28982418",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.515893,25.116664 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立賢暉老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區石牌路2段315巷34弄14、16號1樓",
+    "phone":"02-28710770",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.467453,25.11816 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立崇順老人養護所",
+    "hosp_addr":"臺北市北投區知行路54號1-2樓",
+    "phone":"02-28581979",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.517434,25.109265 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立建民老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區建民路22、24、26、26之1號1樓",
+    "phone":"02-28250799",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.528246,25.139436 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立全泰老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區行義路105號1-2樓",
+    "phone":"02-28747739",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.515893,25.116664 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立義行老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區石牌路2段357巷1號4-6樓",
+    "phone":"02-28767880",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.501895,25.133465 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立尊暉老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區石牌路2段343巷17號1-2樓",
+    "phone":"02-28761997",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512824,25.116459 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立怡靜老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區致遠二路96巷3弄1、3號1樓",
+    "phone":"02-28200437",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.486555,25.142935 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立聖心老人養護所",
+    "hosp_addr":"臺北市北投區稻香路321號1樓",
+    "phone":"02-28913890",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.515893,25.116664 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立全寶老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區石牌路2段315巷16弄2、2-1號1樓",
+    "phone":"02-28710792",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.501895,25.133465 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立行義老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區石牌路2段357巷1號1-3樓",
+    "phone":"02-28729599",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.501895,25.133465 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立奇里岸老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區西安街2段245號1-2樓",
+    "phone":"02-28275139",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.522262,25.11522 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立同德老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市北投區明德路306號1-7樓",
+    "phone":"02-28281328",
+    "district":"北投區",
+    "ratio":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.549282,25.047673 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立群英老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市松山區敦化南路1段7號4樓",
+    "phone":"02-25791400",
+    "district":"松山區",
+    "ratio":127.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.553525,25.048718 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立康壯老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市松山區八德路4段203號、205號1、3、4樓",
+    "phone":"02-27686697",
+    "district":"松山區",
+    "ratio":127.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.549282,25.047673 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立台大老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市松山區敦化南路1段7號4樓之1",
+    "phone":"02-25792816",
+    "district":"松山區",
+    "ratio":127.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.569079,25.051948 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立仁仁老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市松山區南京東路5段356號2樓",
+    "phone":"02-27659900",
+    "district":"松山區",
+    "ratio":127.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.580038,25.046064 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立倚青苑老人養護所",
+    "hosp_addr":"臺北市信義區中坡北路21號1-2樓、23號2樓",
+    "phone":"02-27477232",
+    "district":"信義區",
+    "ratio":69.1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.571239,25.033479 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立康庭老人養護所",
+    "hosp_addr":"臺北市信義區信義路6段15巷16號1樓",
+    "phone":"02-23460684",
+    "district":"信義區",
+    "ratio":69.1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.582914,25.044014 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立福安老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市南港區玉成街140巷21號、23號2樓",
+    "phone":"02-27850584",
+    "district":"南港區",
+    "ratio":12.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.507776,25.043086 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立中山老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市萬華區峨嵋街124號、124之1號1樓",
+    "phone":"02-23759590",
+    "district":"萬華區",
+    "ratio":252.8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.510768,25.023606 ]
+    },
+    "properties": {
+    "hosp_name":"財團法人臺北市私立恆安老人長期照顧中心(長期照護型)",
+    "hosp_addr":"臺北市萬華區水源路187號",
+    "phone":"02-23327973",
+    "district":"萬華區",
+    "ratio":252.8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.494606,25.036238 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立葉媽媽老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市萬華區西園路2段243之13號1-4樓",
+    "phone":"02-23329986",
+    "district":"萬華區",
+    "ratio":252.8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.495864,25.023859 ]
+    },
+    "properties": {
+    "hosp_name":"財團法人天主教失智老人社會福利基金會附設臺北市私立聖若瑟失智老人養護中心",
+    "hosp_addr":"臺北市萬華區德昌街125巷11號1-4樓及13號1樓",
+    "phone":"02-23046715",
+    "district":"萬華區",
+    "ratio":252.8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.494606,25.036238 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立葉爸爸老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市萬華區西園路2段243之14號1-4樓",
+    "phone":"02-23329985",
+    "district":"萬華區",
+    "ratio":252.8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.495563,25.034541 ]
+    },
+    "properties": {
+    "hosp_name":"財團法人臺北市私立愛愛院",
+    "hosp_addr":"臺北市萬華區大理街175巷27號",
+    "phone":"02-23060493",
+    "district":"萬華區",
+    "ratio":252.8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.498409,25.034973 ]
+    },
+    "properties": {
+    "hosp_name":"臺北市私立軒儀老人長期照顧中心(養護型)",
+    "hosp_addr":"臺北市萬華區和平西路3段384號1樓",
+    "phone":"02-23088661",
+    "district":"萬華區",
+    "ratio":252.8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.506777,24.99802 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立宜安老人長期照顧中心(養護型)",
+    "hosp_addr":"新北市中和區泰安里景安路48號7樓",
+    "phone":"02-2240-9359",
+    "district":"中和區",
+    "ratio":104.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.454869,25.020724 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立桐心老人長期照顧中心(養護型)",
+    "hosp_addr":"新北市板橋區港尾里中正路302號2樓",
+    "phone":"02-2968-8657",
+    "district":"板橋區",
+    "ratio":53.7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.340301,24.951475 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立愛鄰田園老人長期照顧中心(養護型)",
+    "hosp_addr":"新北市鶯歌區永昌里建國路596巷40號",
+    "phone":"02-8677-3288",
+    "district":"鶯歌區",
+    "ratio":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458382,25.041406 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立景頤老人長期照顧中心(養護型)",
+    "hosp_addr":"新北市新莊區思源路87巷18號3樓之1",
+    "phone":"02-2277-2203",
+    "district":"新莊區",
+    "ratio":15.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492902,25.003599 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立中山老人長期照顧中心(養護型)",
+    "hosp_addr":"新北市中和區中原里橋安街6號2~3樓",
+    "phone":"02-2443-8323",
+    "district":"中和區",
+    "ratio":104.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.487379,25.004513 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立福泰老人長期照顧中心(養護型)",
+    "hosp_addr":"新北市中和區碧河里中山路二段371號4樓",
+    "phone":"02-2223-3325",
+    "district":"中和區",
+    "ratio":104.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.518774,25.013417 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立寶安老人長期照顧中心(養護型)",
+    "hosp_addr":"新北市永和區上林里竹林路73號2~3樓",
+    "phone":"02-8928-1517",
+    "district":"永和區",
+    "ratio":136.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.43206,24.993794 ]
+    },
+    "properties": {
+    "hosp_name":"三芳護理之家",
+    "hosp_addr":"新北市板橋區崑崙里大觀路三段236號6樓",
+    "phone":"02-2687-6363",
+    "district":"板橋區",
+    "ratio":53.7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.491262,25.07613 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立蓮愛老人養護中心",
+    "hosp_addr":"新北市三重區溪美里溪尾街41號2樓",
+    "phone":"02-2989-6770",
+    "district":"三重區",
+    "ratio":26
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.511711,25.008097 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立宏德老人長期照顧中心(養護型)",
+    "hosp_addr":"新北市永和區協和里永平路81巷12號2樓",
+    "phone":"02-2923-1336",
+    "district":"永和區",
+    "ratio":136.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.453327,25.106326 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立再芳老人長期照顧中心(養護型)",
+    "hosp_addr":"新北市五股區成泰路四段10號3樓之2",
+    "phone":"02-2292-3158",
+    "district":"五股區",
+    "ratio":7.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.474179,25.023778 ]
+    },
+    "properties": {
+    "hosp_name":"上和長照社團法人附設新北市私立迎和住宿長照機構",
+    "hosp_addr":"新北市板橋區忠翠里莒光路167號2樓之9",
+    "phone":"02-8257-0118",
+    "district":"板橋區",
+    "ratio":53.7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.494031,25.001777 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立慈美老人養護中心",
+    "hosp_addr":"新北市中和區連和里中山路二段315巷2號6樓",
+    "phone":"02-2246-7727",
+    "district":"中和區",
+    "ratio":104.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.499961,25.25619 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立長勤老人長期照顧中心(養護型)",
+    "hosp_addr":"新北市三芝區埔頭里長勤街63號",
+    "phone":"02-2636-6887",
+    "district":"三芝區",
+    "ratio":4.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.470098,25.077948 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立捷安護理之家",
+    "hosp_addr":"新北市蘆洲區中山一路300號",
+    "phone":"02-2282-9859",
+    "district":"蘆洲區",
+    "ratio":28.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.550783,24.97787 ]
+    },
+    "properties": {
+    "hosp_name":"私立再生護理之家",
+    "hosp_addr":"新北市新店區寶高路6號",
+    "phone":"02-2915-0111",
+    "district":"新店區",
+    "ratio":4.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.415434,25.002634 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立保安老人長期照顧中心(養護型)",
+    "hosp_addr":"新北市樹林區保安街二段64號4樓",
+    "phone":"02-2686-3810",
+    "district":"樹林區",
+    "ratio":11.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.493404,25.001562 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立忠祥老人長期照顧中心(養護型)",
+    "hosp_addr":"新北市中和區連和里中山路二段327巷1號4樓",
+    "phone":"02-2247-3386",
+    "district":"中和區",
+    "ratio":104.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.439135,24.972735 ]
+    },
+    "properties": {
+    "hosp_name":"元復醫院附設護理之家",
+    "hosp_addr":"新北市土城區慶樂街25號",
+    "phone":"02-2262-0582",
+    "district":"土城區",
+    "ratio":12.1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.502272,25.003067 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立雙和老人長期照顧中心(養護型)",
+    "hosp_addr":"新北市中和區福和里中山路二段133號2樓",
+    "phone":"02-8245-8280",
+    "district":"中和區",
+    "ratio":104.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456586,24.996717 ]
+    },
+    "properties": {
+    "hosp_name":"新北市私立瑞昇老人長期照顧中心(養護型)",
+    "hosp_addr":"新北市板橋區鄉雲里四川路二段16巷1號1樓",
+    "phone":"02-8967-5498",
+    "district":"板橋區",
+    "ratio":53.7
+    }
+  }
+]
+}
