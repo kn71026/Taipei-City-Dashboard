@@ -13,6 +13,7 @@ import MobileLayers from "../dialogs/MobileLayers.vue";
 import IncidentReport from "../dialogs/IncidentReport.vue";
 import FindClosestPoint from "../dialogs/FindClosestPoint.vue";
 import SelectedFeatureReport from "../dialogs/SelectedFeatureReport.vue";
+import ExportMap from "../dialogs/ExportMap.vue";
 import { savedLocations } from "../../assets/configs/mapbox/savedLocations.js";
 
 const authStore = useAuthStore();
@@ -118,6 +119,16 @@ onMounted(() => {
 				>
 					表
 				</button>
+				<!-- 匯出地圖按鈕 -->
+				<button
+					:style="{
+						color: 'var(--color-component-background)',
+					}"
+					@click="dialogStore.showDialog('exportMap')"
+					title="匯出地圖"
+				>
+					<span class="material-icons">download</span>
+				</button>
 
 				<button
 					v-if="canUseFindClosestPoint"
@@ -158,6 +169,7 @@ onMounted(() => {
 			<IncidentReport />
 			<FindClosestPoint />
 			<SelectedFeatureReport />
+			<ExportMap />
 		</div>
 
 		<div class="mapcontainer-controls hide-if-mobile">
