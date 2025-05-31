@@ -16,6 +16,7 @@ import { MapboxOverlay } from "@deck.gl/mapbox";
 import axios from "axios";
 import http from "../router/axios.js";
 import * as turf from "@turf/turf";
+import dayjs from "dayjs";
 
 // Other Stores
 import { useAuthStore } from "./authStore";
@@ -77,6 +78,11 @@ export const useMapStore = defineStore("map", {
 		filter: {
 			min: null,
 			max: null,
+		},
+		// Time Filter
+		timeFilter: {
+			start: null,
+			end: null,
 		},
 	}),
 	actions: {
@@ -1765,6 +1771,48 @@ export const useMapStore = defineStore("map", {
 					"icon-anchor": "bottom",
 				},
 			});
+		},
+
+		setTimeFilterRange({ start, end }) {
+			const startKey = Number(dayjs(start).format("YYYYMMDDHHmm"));
+			const endKey = Number(dayjs(end).format("YYYYMMDDHHmm"));
+
+			this.timeFilter = { start: startKey, end: endKey };
+
+			if (!this.map) return;
+
+			this.map.setFilter(
+				"car_accidents_a2_metrotaipei-symbol-metrotaipei",
+				[
+					"all",
+					[
+						">=",
+						[
+							"to-number",
+							[
+								"concat",
+								["get", "accident_date"],
+								["slice", ["get", "accident_time"], 0, 2], // HH
+								["slice", ["get", "accident_time"], 3, 5], // mm
+							],
+						],
+						startKey,
+					],
+					[
+						"<=",
+						[
+							"to-number",
+							[
+								"concat",
+								["get", "accident_date"],
+								["slice", ["get", "accident_time"], 0, 2], // HH
+								["slice", ["get", "accident_time"], 3, 5], // mm
+							],
+						],
+						endKey,
+					],
+				]
+			);
 		},
 	},
 });

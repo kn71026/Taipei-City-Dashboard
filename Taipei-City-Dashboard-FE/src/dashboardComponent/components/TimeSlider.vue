@@ -1,31 +1,36 @@
 <script setup lang="ts">
 import { ref, computed, onUnmounted, watch } from "vue";
 import dayjs from "dayjs";
+import { useMapStore } from "../../store/mapStore"; // ← 引入 Pinia store
 
-const emit = defineEmits<{
-	(e: "update:currentDate", value: string): void;
-}>();
+/*
+ * Hour‑based Time Slider (store‑driven)
+ * ------------------------------------
+ * ‑ 不再 emit，直接寫入 mapStore.timeFilter = { start, end }
+ */
 
-// ───────────────────────────────────────── time domain
+const mapStore = useMapStore();
+
+// ─────────────── 時間域設定
 const startDate = dayjs("2025-04-01 00:00");
-const endDate = dayjs("2025-04-30 23:00"); // inclusive
-const totalHours = endDate.diff(startDate, "hour") + 1; // 720 hours (Apr)
+const endDate = dayjs("2025-04-30 23:00");
+const totalHours = endDate.diff(startDate, "hour") + 1; // 720
 
-// Default window = 24 hours
+// 24h window 預設
 const range = ref<[number, number]>([0, 23]);
 const current = ref(range.value[0]);
 
-// state flags
+// flags
 const isPlaying = ref(false);
 const isIncreasing = ref(false);
 const isDecreasing = ref(false);
 
 let timer: number | null = null;
-const PLAY_INTERVAL = 15; // ms per hour frame
+const PLAY_INTERVAL = 15; // ms / hour
 
-// ───────────────────────────────────────── computed helpers
+// ─────────────── helpers
 const currentDate = computed(() =>
-	startDate.add(current.value, "hour").format("YYYY‑MM‑DD HH:mm")
+	startDate.add(current.value, "hour").format("YYYY-MM-DD HH:mm")
 );
 
 const selectedStyle = computed(() => {
@@ -36,98 +41,95 @@ const selectedStyle = computed(() => {
 	};
 });
 
-// ───────────────────────────────────────── lifecycle helpers
+// 立即把預設範圍寫入 store (mount 後)
+mapStore.timeFilter = {
+	start: startDate.add(range.value[0], "hour").valueOf(),
+	end: startDate.add(range.value[1], "hour").valueOf(),
+};
+
+// ─────────────── lifecycle
 function clearTimer() {
 	if (timer !== null) {
 		clearInterval(timer);
 		timer = null;
 	}
 }
-
 function stopAll() {
 	isPlaying.value = false;
 	isIncreasing.value = false;
 	isDecreasing.value = false;
 	clearTimer();
 }
-
 onUnmounted(stopAll);
 
-// ───────────────────────────────────────── core actions
+// ─────────────── core
 function shiftWindow(step = 1) {
-	const windowSize = range.value[1] - range.value[0];
-	let newStart = range.value[0] + step;
-	let newEnd = range.value[1] + step;
+	const w = range.value[1] - range.value[0];
+	let s = range.value[0] + step;
+	let e = range.value[1] + step;
+	if (e >= totalHours) {
+		e = totalHours - 1;
+		s = e - w;
+	}
+	if (s < 0) {
+		s = 0;
+		e = s + w;
+	}
+	range.value = [s, e];
+	current.value = s;
+}
 
-	if (newEnd >= totalHours) {
-		newEnd = totalHours - 1;
-		newStart = newEnd - windowSize;
+function loopIfEnd() {
+	if (range.value[1] >= totalHours - 1) {
+		const w = range.value[1] - range.value[0];
+		range.value = [0, w];
+		current.value = 0;
 	}
-	if (newStart < 0) {
-		newStart = 0;
-		newEnd = newStart + windowSize;
-	}
-	range.value = [newStart, newEnd];
-	current.value = newStart;
 }
 
 function togglePlay() {
 	if (isPlaying.value) return stopAll();
-
 	stopAll();
 	isPlaying.value = true;
 	timer = setInterval(() => {
-		shiftWindow(1); // +1 hour
-		if (range.value[1] >= totalHours - 1) {
-			// loop: reset to the beginning with the same window size
-			const winSize = range.value[1] - range.value[0];
-			range.value = [0, winSize];
-			current.value = 0;
-		}
+		shiftWindow(1);
+		loopIfEnd();
 	}, PLAY_INTERVAL) as unknown as number;
 }
 
 function toggleCumulatedMode() {
 	if (isIncreasing.value) return stopAll();
-
 	stopAll();
 	isIncreasing.value = true;
 	timer = setInterval(() => {
 		if (range.value[1] < totalHours - 1) {
 			range.value[1]++;
-		} else {
-			stopAll();
-		}
+		} else stopAll();
 	}, PLAY_INTERVAL) as unknown as number;
 }
 
 function toggleDecreaseMode() {
 	if (isDecreasing.value) return stopAll();
-
 	stopAll();
 	isDecreasing.value = true;
 	timer = setInterval(() => {
 		if (range.value[0] > 0) {
 			range.value[0]--;
 			current.value = range.value[0];
-		} else {
-			stopAll();
-		}
+		} else stopAll();
 	}, PLAY_INTERVAL) as unknown as number;
 }
 
-// ───────────────────────────────────────── watchers / emit
+// ─────────────── Sync to store
 watch(
-	() => range.value[0],
-	(v) => (current.value = v)
-);
-watch(
-	() => current.value,
-	(v) =>
-		emit(
-			"update:currentDate",
-			startDate.add(v, "hour").format("YYYY‑MM‑DD HH:mm")
-		)
+	range,
+	([s, e]) => {
+		mapStore.setTimeFilterRange({
+			start: startDate.add(s, "hour").valueOf(),
+			end: startDate.add(e, "hour").valueOf(),
+		});
+	},
+	{ deep: true }
 );
 </script>
 
@@ -135,21 +137,21 @@ watch(
 	<div class="time-slider-container">
 		<div class="time-slider-header">
 			<div class="time-label">
-				{{ startDate.add(range[0], "hour").format("MM/DD HH:mm") }} –
-				{{ startDate.add(range[1], "hour").format("MM/DD HH:mm") }}
+				{{ startDate.add(range[0], "hour").format("MM/DD HH:mm") }} –
+				{{ startDate.add(range[1], "hour").format("MM/DD HH:mm") }}
 			</div>
 			<div class="time-controls">
 				<button
 					@click="shiftWindow(-1)"
 					class="shift-button"
-					title="← 1 h"
+					title="← 1h"
 				>
 					<span class="material-icons">skip_previous</span>
 				</button>
 				<button
 					@click="togglePlay"
 					:class="['play-button', isPlaying && 'active']"
-					title="Play / Pause"
+					title="Play/Pause"
 				>
 					<span class="material-icons">{{
 						isPlaying ? "pause" : "play_arrow"
@@ -158,7 +160,7 @@ watch(
 				<button
 					@click="shiftWindow(1)"
 					class="shift-button"
-					title="→ 1 h"
+					title="→ 1h"
 				>
 					<span class="material-icons">skip_next</span>
 				</button>
@@ -211,7 +213,7 @@ watch(
 
 <style scoped>
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-/* layout + style unchanged, works fine at hour‑level */
+/*（原樣式保留，不動）*/
 .time-slider-container {
 	width: 70%;
 	padding: 16px;
