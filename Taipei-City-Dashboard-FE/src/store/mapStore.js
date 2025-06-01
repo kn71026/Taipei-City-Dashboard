@@ -1063,6 +1063,92 @@ export const useMapStore = defineStore("map", {
 				source: "geojson",
 			};
 			this.addMapLayer(new_map_config);
+
+			// Step 4: Prepare points data
+
+			function enrichParksWithUV(
+				parkPoints,
+				scalarField,
+				lngStart,
+				latStart,
+				gridSize,
+				rowN,
+				colN
+			) {
+				return {
+					...parkPoints,
+					features: parkPoints.features.map((f) => {
+						const [lng, lat] = f.geometry.coordinates;
+						const xIdx = Math.floor((lng - lngStart) / gridSize);
+						const yIdx = Math.floor((lat - latStart) / gridSize);
+
+						let uv = null;
+						if (
+							xIdx >= 0 &&
+							xIdx < colN &&
+							yIdx >= 0 &&
+							yIdx < rowN
+						) {
+							uv = scalarField[yIdx][xIdx];
+						}
+
+						return {
+							...f,
+							properties: {
+								...f.properties,
+								uv_index: uv,
+							},
+						};
+					}),
+				};
+			}
+
+			const uvColorStep = [
+				"step",
+				["get", "uv_index"],
+				"#A8E05F", // <3
+				3,
+				"#FDD64B", // 3-5
+				6,
+				"#FFA700", // 6-7
+				8,
+				"#F95C38", // 8-10
+				11,
+				"#D8001D", // 11+
+			];
+
+			fetch("/mapData/park_metrotaipei.geojson")
+				.then((res) => res.json())
+				.then((realParkGeoJSON) => {
+					// enrich 資料
+					const enrichedParks = enrichParksWithUV(
+						realParkGeoJSON,
+						discreteData,
+						lngStart,
+						latStart,
+						gridSize,
+						rowN,
+						colN
+					);
+
+					// 加入 source + layer
+					this.map.addSource("uv-park-source", {
+						type: "geojson",
+						data: enrichedParks,
+					});
+
+					this.map.addLayer({
+						id: "uv-parks",
+						type: "circle",
+						source: "uv-park-source",
+						paint: {
+							"circle-radius": 4,
+							"circle-color": uvColorStep,
+							"circle-stroke-width": 1,
+							"circle-stroke-color": "#ffffff",
+						},
+					});
+				});
 		},
 		//  5. Turn on the visibility for a exisiting map layer
 		turnOnMapLayerVisibility(mapLayerId) {
@@ -1096,6 +1182,12 @@ export const useMapStore = defineStore("map", {
 				this.currentVisibleLayers = this.currentVisibleLayers.filter(
 					(element) => element !== mapLayerId
 				);
+				if (
+					mapLayerId.startsWith("uv_") &&
+					this.map.getLayer("uv-parks")
+				) {
+					this.map.removeLayer("uv-parks");
+				}
 			});
 			this.removePopup();
 		},
@@ -1766,14 +1858,14 @@ export const useMapStore = defineStore("map", {
 			// 非聚合的點 (point)
 			this.map.addLayer({
 				id: `${layerId}-point`,
-				type: "symbol",
+				type: "circle",
 				source: sourceId,
 				filter: ["!", ["has", "point_count"]],
-				layout: {
-					"icon-image": "bike_green", // 這是你 addImage() 的名稱
-					"icon-size": 1.2,
-					"icon-allow-overlap": true,
-					"icon-anchor": "bottom",
+				paint: {
+					"circle-color": "#5a9c34",
+					"circle-radius": 6,
+					"circle-stroke-width": 1,
+					"circle-stroke-color": "#ffffff",
 				},
 			});
 		},
