@@ -1065,35 +1065,6 @@ export const useMapStore = defineStore("map", {
 			this.addMapLayer(new_map_config);
 
 			// Step 4: Prepare points data
-			const fakeParks = {
-				type: "FeatureCollection",
-				features: [
-					{
-						type: "Feature",
-						geometry: {
-							type: "Point",
-							coordinates: [121.53, 25.045],
-						},
-						properties: { name: "青年公園" },
-					},
-					{
-						type: "Feature",
-						geometry: {
-							type: "Point",
-							coordinates: [121.59, 25.035],
-						},
-						properties: { name: "大安森林公園" },
-					},
-					{
-						type: "Feature",
-						geometry: {
-							type: "Point",
-							coordinates: [121.48, 25.02],
-						},
-						properties: { name: "大龍峒公園" },
-					},
-				],
-			};
 
 			function enrichParksWithUV(
 				parkPoints,
@@ -1146,32 +1117,38 @@ export const useMapStore = defineStore("map", {
 				"#D8001D", // 11+
 			];
 
-			const enrichedParks = enrichParksWithUV(
-				fakeParks,
-				discreteData,
-				lngStart,
-				latStart,
-				gridSize,
-				rowN,
-				colN
-			);
+			fetch("/mapData/park_metrotaipei.geojson")
+				.then((res) => res.json())
+				.then((realParkGeoJSON) => {
+					// enrich 資料
+					const enrichedParks = enrichParksWithUV(
+						realParkGeoJSON,
+						discreteData,
+						lngStart,
+						latStart,
+						gridSize,
+						rowN,
+						colN
+					);
 
-			this.map.addSource("uv-park-source", {
-				type: "geojson",
-				data: enrichedParks, // ← 上一步算出來的 enriched 資料
-			});
+					// 加入 source + layer
+					this.map.addSource("uv-park-source", {
+						type: "geojson",
+						data: enrichedParks,
+					});
 
-			this.map.addLayer({
-				id: "uv-parks",
-				type: "circle",
-				source: "uv-park-source",
-				paint: {
-					"circle-radius": 10,
-					"circle-color": uvColorStep,
-					"circle-stroke-width": 1,
-					"circle-stroke-color": "#ffffff",
-				},
-			});
+					this.map.addLayer({
+						id: "uv-parks",
+						type: "circle",
+						source: "uv-park-source",
+						paint: {
+							"circle-radius": 4,
+							"circle-color": uvColorStep,
+							"circle-stroke-width": 1,
+							"circle-stroke-color": "#ffffff",
+						},
+					});
+				});
 		},
 		//  5. Turn on the visibility for a exisiting map layer
 		turnOnMapLayerVisibility(mapLayerId) {
