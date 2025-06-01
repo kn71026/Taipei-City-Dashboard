@@ -142,7 +142,7 @@ export const useMapStore = defineStore("map", {
 				});
 
 			this.renderMarkers();
-			this.addSymbolSources();
+			// this.addSymbolSources();
 			return geoLocate;
 		},
 
