@@ -1902,7 +1902,7 @@ export const useMapStore = defineStore("map", {
 			if (!this.map) return;
 
 			this.map.setFilter(
-				"car_accidents_a2_metrotaipei-symbol-metrotaipei",
+				"car_accidents_a2_metrotaipei-circle-metrotaipei",
 				[
 					"all",
 					[
