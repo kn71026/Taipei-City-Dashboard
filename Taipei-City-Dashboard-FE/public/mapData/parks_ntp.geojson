@@ -1,0 +1,6625 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.40479,25.150332 ]
+    },
+    "properties": {
+    "pm_name":"訊塘社區公園(公兒十)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.418495,25.158766 ]
+    },
+    "properties": {
+    "pm_name":"南山公園 (公兒三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.421485,25.160939 ]
+    },
+    "properties": {
+    "pm_name":"北河公園(公兒二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.401312,25.147715 ]
+    },
+    "properties": {
+    "pm_name":"舊城公園(公兒七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.429436,25.16039 ]
+    },
+    "properties": {
+    "pm_name":"大崁環保公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450212,25.13048 ]
+    },
+    "properties": {
+    "pm_name":"龍源公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.520641,23.878179 ]
+    },
+    "properties": {
+    "pm_name":"文昌公園(兒四)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.18639,23.584365 ]
+    },
+    "properties": {
+    "pm_name":"狀元公園(兒五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.508903,25.025196 ]
+    },
+    "properties": {
+    "pm_name":"片仔溝公園(兒六)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.544076,24.075626 ]
+    },
+    "properties": {
+    "pm_name":"商港路旁綠地(兒九)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.393569,25.148943 ]
+    },
+    "properties": {
+    "pm_name":"水仙公園(公六)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46445,23.847856 ]
+    },
+    "properties": {
+    "pm_name":"商港公園(公七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.393503,25.142724 ]
+    },
+    "properties": {
+    "pm_name":"訊庄埔公園(公八)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.58115,25.043089 ]
+    },
+    "properties": {
+    "pm_name":"八里區行政大樓(公博二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.520641,23.878179 ]
+    },
+    "properties": {
+    "pm_name":"頂罟活動中心綠地(公博三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "pm_name":"訊塘廣場(廣場用地)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "pm_name":"商港一路綠地(兒九)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.433027,25.158257 ]
+    },
+    "properties": {
+    "pm_name":"渡船頭公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.614611,25.062088 ]
+    },
+    "properties": {
+    "pm_name":"公博一公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.403357,25.156092 ]
+    },
+    "properties": {
+    "pm_name":"新北考古公園(公五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.769209,24.677893 ]
+    },
+    "properties": {
+    "pm_name":"兒三公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.908667,24.692698 ]
+    },
+    "properties": {
+    "pm_name":"兒二公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450415,25.182389 ]
+    },
+    "properties": {
+    "pm_name":"兒一公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.484335,25.079825 ]
+    },
+    "properties": {
+    "pm_name":"慈生公園(遊五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.576152,22.405552 ]
+    },
+    "properties": {
+    "pm_name":"慈祐公園(遊四)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.488241,25.084738 ]
+    },
+    "properties": {
+    "pm_name":"慈化公園(遊三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.484839,25.075732 ]
+    },
+    "properties": {
+    "pm_name":"永盛公園(公十八)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.422832,23.471953 ]
+    },
+    "properties": {
+    "pm_name":"永豐公園(遊八)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.494377,25.084505 ]
+    },
+    "properties": {
+    "pm_name":"五華公園(遊一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.496095,25.080796 ]
+    },
+    "properties": {
+    "pm_name":"五常公園(遊二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.48138,25.076515 ]
+    },
+    "properties": {
+    "pm_name":"永福公園(遊七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.484484,25.080754 ]
+    },
+    "properties": {
+    "pm_name":"慈愛公園(公十五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.487796,25.084348 ]
+    },
+    "properties": {
+    "pm_name":"碧華公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.479585,25.067869 ]
+    },
+    "properties": {
+    "pm_name":"福田公園(公二七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.865911,25.036558 ]
+    },
+    "properties": {
+    "pm_name":"興華公園(公三二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.603374,25.057957 ]
+    },
+    "properties": {
+    "pm_name":"重陽公園(公三三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.336258,24.996112 ]
+    },
+    "properties": {
+    "pm_name":"重新公園(公四十二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.866615,25.040018 ]
+    },
+    "properties": {
+    "pm_name":"聯邦公園 (公二九)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.498936,25.058805 ]
+    },
+    "properties": {
+    "pm_name":"光興公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.148572,23.576612 ]
+    },
+    "properties": {
+    "pm_name":"公36同安公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.500263,25.061229 ]
+    },
+    "properties": {
+    "pm_name":"公35同安公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492768,25.057794 ]
+    },
+    "properties": {
+    "pm_name":"菜寮公園 (公十三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.489442,25.054971 ]
+    },
+    "properties": {
+    "pm_name":"玫瑰公園(公四五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.490708,25.066295 ]
+    },
+    "properties": {
+    "pm_name":"大同公園(公九)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.498044,25.065096 ]
+    },
+    "properties": {
+    "pm_name":"信義公園(公八)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.495219,25.063372 ]
+    },
+    "properties": {
+    "pm_name":"大智公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.48815,25.060112 ]
+    },
+    "properties": {
+    "pm_name":"過圳公園 (公十二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.503219,25.066318 ]
+    },
+    "properties": {
+    "pm_name":"開元公園(公三十)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.487796,25.07289 ]
+    },
+    "properties": {
+    "pm_name":"永德公園(公廿)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.490256,25.072041 ]
+    },
+    "properties": {
+    "pm_name":"小永德公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458214,23.780507 ]
+    },
+    "properties": {
+    "pm_name":"後竹圍公園(公廿一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.491685,25.072317 ]
+    },
+    "properties": {
+    "pm_name":"厚德公園(公十九)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459536,25.001666 ]
+    },
+    "properties": {
+    "pm_name":"和平公園(公廿三、廿四)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.488268,25.069427 ]
+    },
+    "properties": {
+    "pm_name":"六合公園(公廿五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492479,25.071132 ]
+    },
+    "properties": {
+    "pm_name":"三張公園 (公廿二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.494546,25.071869 ]
+    },
+    "properties": {
+    "pm_name":"介壽公園(公十七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.16324,23.617841 ]
+    },
+    "properties": {
+    "pm_name":"正義公園(公六)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.493216,25.070089 ]
+    },
+    "properties": {
+    "pm_name":"六張公園(公七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.771401,24.829238 ]
+    },
+    "properties": {
+    "pm_name":"三民公園(公廿八)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.283178,22.720279 ]
+    },
+    "properties": {
+    "pm_name":"三德公園(公一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.502292,25.072904 ]
+    },
+    "properties": {
+    "pm_name":"龍濱公園(公三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.329966,22.571687 ]
+    },
+    "properties": {
+    "pm_name":"龍門公園(公二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.491392,25.061192 ]
+    },
+    "properties": {
+    "pm_name":"中山藝術公園(綠三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.747688,24.763255 ]
+    },
+    "properties": {
+    "pm_name":"親水公園(兒十)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.52644,24.838736 ]
+    },
+    "properties": {
+    "pm_name":"大山公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.486063,25.086507 ]
+    },
+    "properties": {
+    "pm_name":"太陽公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.490588,25.084762 ]
+    },
+    "properties": {
+    "pm_name":"自然公園(公三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.49705,25.081129 ]
+    },
+    "properties": {
+    "pm_name":"進安公園(兒九)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.490588,25.084762 ]
+    },
+    "properties": {
+    "pm_name":"集賢環保公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.489933,25.078075 ]
+    },
+    "properties": {
+    "pm_name":"廣一公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.489933,25.078075 ]
+    },
+    "properties": {
+    "pm_name":"廣二公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.586174,23.860418 ]
+    },
+    "properties": {
+    "pm_name":"大有公園(綠十三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.475311,25.068101 ]
+    },
+    "properties": {
+    "pm_name":"二重公園(公三十七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.529258,25.029783 ]
+    },
+    "properties": {
+    "pm_name":"同仁公園(兒十四)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.479537,25.063461 ]
+    },
+    "properties": {
+    "pm_name":"忠孝公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "pm_name":"港墘公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.476269,25.072421 ]
+    },
+    "properties": {
+    "pm_name":"新北綠家園(永德段914)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.525847,23.945247 ]
+    },
+    "properties": {
+    "pm_name":"德厚公園(公四十八)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.476021,25.05173 ]
+    },
+    "properties": {
+    "pm_name":"神農公園(兒二十三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.476392,25.052913 ]
+    },
+    "properties": {
+    "pm_name":"谷王公園(兒廿)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.475479,25.055474 ]
+    },
+    "properties": {
+    "pm_name":"頂崁公園(兒十九)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.569059,24.989094 ]
+    },
+    "properties": {
+    "pm_name":"開元公園(公三十)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.557219,25.002945 ]
+    },
+    "properties": {
+    "pm_name":"頂崁公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.536235,25.023559 ]
+    },
+    "properties": {
+    "pm_name":"二重公園(公三十七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.476006,25.050548 ]
+    },
+    "properties": {
+    "pm_name":"神農百草公園(綠九)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.51262,25.015272 ]
+    },
+    "properties": {
+    "pm_name":"中山公園(公七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.575037,22.616621 ]
+    },
+    "properties": {
+    "pm_name":"大同公園(兒五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.376455,24.929605 ]
+    },
+    "properties": {
+    "pm_name":"介壽公園(兒七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469354,25.000925 ]
+    },
+    "properties": {
+    "pm_name":"龍埔公園(防災公園、兒十)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.372617,24.942048 ]
+    },
+    "properties": {
+    "pm_name":"龍恩公園(中悅兒童公園，兒四)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.379173,24.947803 ]
+    },
+    "properties": {
+    "pm_name":"遠雄海洋公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.604266,23.975445 ]
+    },
+    "properties": {
+    "pm_name":"藍染公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.019516,24.77939 ]
+    },
+    "properties": {
+    "pm_name":"三角圓環公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.391595,24.910308 ]
+    },
+    "properties": {
+    "pm_name":"醒心公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.395451,24.939114 ]
+    },
+    "properties": {
+    "pm_name":"溪北河濱公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.588699,25.040527 ]
+    },
+    "properties": {
+    "pm_name":"成福河濱公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.005539,24.845778 ]
+    },
+    "properties": {
+    "pm_name":"礁溪人行廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.361199,24.930729 ]
+    },
+    "properties": {
+    "pm_name":"鳶山運動公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.376493,24.943563 ]
+    },
+    "properties": {
+    "pm_name":"龍學公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3983,24.935081 ]
+    },
+    "properties": {
+    "pm_name":"橫溪路120巷簡易公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.367184,24.921372 ]
+    },
+    "properties": {
+    "pm_name":"大埔里運動公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.17777,23.621261 ]
+    },
+    "properties": {
+    "pm_name":"溪東社區公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.490846,25.058888 ]
+    },
+    "properties": {
+    "pm_name":"長福公園(兒九)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.374627,24.928467 ]
+    },
+    "properties": {
+    "pm_name":"中正公園(兒四)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.374991,24.937908 ]
+    },
+    "properties": {
+    "pm_name":"太空公園(公十三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.772222,24.690052 ]
+    },
+    "properties": {
+    "pm_name":"清水社區公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443137,24.977231 ]
+    },
+    "properties": {
+    "pm_name":"員林社區公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.419204,24.963406 ]
+    },
+    "properties": {
+    "pm_name":"沛陂公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443973,24.973399 ]
+    },
+    "properties": {
+    "pm_name":"金城公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459613,24.97719 ]
+    },
+    "properties": {
+    "pm_name":"清和社區公園(公兒五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.440935,24.978866 ]
+    },
+    "properties": {
+    "pm_name":"員福社區公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.835615,24.610989 ]
+    },
+    "properties": {
+    "pm_name":"仁愛公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.41123,24.953527 ]
+    },
+    "properties": {
+    "pm_name":"祖田兒童遊戲公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.514675,23.88195 ]
+    },
+    "properties": {
+    "pm_name":"清華社區公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.921875,24.714146 ]
+    },
+    "properties": {
+    "pm_name":"頂新公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450478,24.987931 ]
+    },
+    "properties": {
+    "pm_name":"學成社區公園(公兒三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44137,24.97428 ]
+    },
+    "properties": {
+    "pm_name":"永寧廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462418,24.982622 ]
+    },
+    "properties": {
+    "pm_name":"永豐社區公園(公兒八)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.45961,24.981518 ]
+    },
+    "properties": {
+    "pm_name":"大清水公園(公二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.921875,24.714146 ]
+    },
+    "properties": {
+    "pm_name":"頂埔永福公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.430809,24.954369 ]
+    },
+    "properties": {
+    "pm_name":"原住民生態公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.475874,24.973361 ]
+    },
+    "properties": {
+    "pm_name":"廷寮山林公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450999,24.94646 ]
+    },
+    "properties": {
+    "pm_name":"桐花公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.694072,23.762867 ]
+    },
+    "properties": {
+    "pm_name":"延和社區公園(公兒一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443973,24.973399 ]
+    },
+    "properties": {
+    "pm_name":"仁德公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443457,24.972174 ]
+    },
+    "properties": {
+    "pm_name":"大墓公公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.325638,22.729934 ]
+    },
+    "properties": {
+    "pm_name":"明德公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459365,24.982585 ]
+    },
+    "properties": {
+    "pm_name":"雲溪廣場(廣五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.464268,24.987625 ]
+    },
+    "properties": {
+    "pm_name":"延和廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.46508,24.98312 ]
+    },
+    "properties": {
+    "pm_name":"百喬廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469259,24.991739 ]
+    },
+    "properties": {
+    "pm_name":"延壽親子廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.541671,24.977366 ]
+    },
+    "properties": {
+    "pm_name":"青山廣場(廣三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460842,24.983306 ]
+    },
+    "properties": {
+    "pm_name":"立雲廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.865025,24.585133 ]
+    },
+    "properties": {
+    "pm_name":"青雲廣場(廣六)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.453414,24.985156 ]
+    },
+    "properties": {
+    "pm_name":"裕民廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.457366,24.982885 ]
+    },
+    "properties": {
+    "pm_name":"柑林廣場(廣七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44076,24.989653 ]
+    },
+    "properties": {
+    "pm_name":"裕生廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443973,24.973399 ]
+    },
+    "properties": {
+    "pm_name":"金城公園(公五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.463875,24.978842 ]
+    },
+    "properties": {
+    "pm_name":"青山公園(公兒二五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.29727,25.01866 ]
+    },
+    "properties": {
+    "pm_name":"南區B公園(公九)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.449993,24.97948 ]
+    },
+    "properties": {
+    "pm_name":"南區C公園(公兒18)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.449993,24.97948 ]
+    },
+    "properties": {
+    "pm_name":"南區E公園(公7)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.384006,24.966223 ]
+    },
+    "properties": {
+    "pm_name":"紫藤廊道(南區D公園)公兒16、綠6"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.446577,24.97913 ]
+    },
+    "properties": {
+    "pm_name":"紫藤廊道(南區D公園)公兒17"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.446577,24.97913 ]
+    },
+    "properties": {
+    "pm_name":"南區E公園(公兒22)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.473386,24.988351 ]
+    },
+    "properties": {
+    "pm_name":"南區E公園(綠三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.772222,24.690052 ]
+    },
+    "properties": {
+    "pm_name":"綠5"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.45796,24.978598 ]
+    },
+    "properties": {
+    "pm_name":"南區B公園(公兒19)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44898,24.982711 ]
+    },
+    "properties": {
+    "pm_name":"南區a公園(公兒20)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.616051,22.76154 ]
+    },
+    "properties": {
+    "pm_name":"運公二公園(公四)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.761924,25.10393 ]
+    },
+    "properties": {
+    "pm_name":"運公一公園(公六)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.761924,25.10393 ]
+    },
+    "properties": {
+    "pm_name":"運公一公園(綠一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.761924,25.10393 ]
+    },
+    "properties": {
+    "pm_name":"運公一公園(綠二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.761924,25.10393 ]
+    },
+    "properties": {
+    "pm_name":"運公一公園(綠三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.434717,24.971344 ]
+    },
+    "properties": {
+    "pm_name":"頂埔公一公園(公1)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.454824,24.981778 ]
+    },
+    "properties": {
+    "pm_name":"斬龍山遺址文化公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "pm_name":"清穗公園(公廿九)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.14898,23.576477 ]
+    },
+    "properties": {
+    "pm_name":"華福公園(公廿一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.46812,24.998342 ]
+    },
+    "properties": {
+    "pm_name":"明德公園(公七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.496561,24.997123 ]
+    },
+    "properties": {
+    "pm_name":"安邦公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.502186,25.031183 ]
+    },
+    "properties": {
+    "pm_name":"自強公園(公廿)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.479931,25.004133 ]
+    },
+    "properties": {
+    "pm_name":"員山公園(公八)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.480685,24.998943 ]
+    },
+    "properties": {
+    "pm_name":"嘉穗公園(公十一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.513661,24.987388 ]
+    },
+    "properties": {
+    "pm_name":"景新公園(公六)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.050529,24.90484 ]
+    },
+    "properties": {
+    "pm_name":"中興公園(公十二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.559658,22.608301 ]
+    },
+    "properties": {
+    "pm_name":"復興公園(公四)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.558887,22.612611 ]
+    },
+    "properties": {
+    "pm_name":"秀山公園(公七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.598173,22.361025 ]
+    },
+    "properties": {
+    "pm_name":"中和公園(公四)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.613438,23.972226 ]
+    },
+    "properties": {
+    "pm_name":"廟美綠林小徑"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.522717,25.095332 ]
+    },
+    "properties": {
+    "pm_name":"金山板南公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.499268,25.005118 ]
+    },
+    "properties": {
+    "pm_name":"泰隆公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.482273,25.001348 ]
+    },
+    "properties": {
+    "pm_name":"民樂人行廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.585454,22.617787 ]
+    },
+    "properties": {
+    "pm_name":"華新人行廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.515297,24.995331 ]
+    },
+    "properties": {
+    "pm_name":"民享藝文特區(公一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492958,24.999817 ]
+    },
+    "properties": {
+    "pm_name":"元隆公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.622626,23.985759 ]
+    },
+    "properties": {
+    "pm_name":"壽德公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.92684,24.793425 ]
+    },
+    "properties": {
+    "pm_name":"福美公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.338479,22.635465 ]
+    },
+    "properties": {
+    "pm_name":"瓦窯溝沿線綠帶"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.477196,25.017241 ]
+    },
+    "properties": {
+    "pm_name":"廟仔尾溝加蓋綠帶"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.505143,24.984893 ]
+    },
+    "properties": {
+    "pm_name":"南山溝加蓋綠帶"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.648703,24.125678 ]
+    },
+    "properties": {
+    "pm_name":"圓通綠廊"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.262871,23.221702 ]
+    },
+    "properties": {
+    "pm_name":"中和大排旁簡易公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.481021,24.995411 ]
+    },
+    "properties": {
+    "pm_name":"中坑公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.503065,24.979898 ]
+    },
+    "properties": {
+    "pm_name":"興南路二段261巷口綠帶"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.495425,25.011878 ]
+    },
+    "properties": {
+    "pm_name":"華中橋四面邊坡綠帶"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492958,24.999817 ]
+    },
+    "properties": {
+    "pm_name":"板南抽水站旁綠帶"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.528963,25.059946 ]
+    },
+    "properties": {
+    "pm_name":"花曆公園(公一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.489825,25.009762 ]
+    },
+    "properties": {
+    "pm_name":"樟樹公園(公二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.486681,25.011395 ]
+    },
+    "properties": {
+    "pm_name":"光之公園(公兒一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.486681,25.011395 ]
+    },
+    "properties": {
+    "pm_name":"風之公園(公兒二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.486096,25.012998 ]
+    },
+    "properties": {
+    "pm_name":"綠之公園(公六)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.486416,25.011998 ]
+    },
+    "properties": {
+    "pm_name":"水之公園(公七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.170417,23.580405 ]
+    },
+    "properties": {
+    "pm_name":"員勝公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.490405,24.992592 ]
+    },
+    "properties": {
+    "pm_name":"錦和運動公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.430164,25.071706 ]
+    },
+    "properties": {
+    "pm_name":"水碓景觀公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.431855,25.072602 ]
+    },
+    "properties": {
+    "pm_name":"石德公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450043,25.11453 ]
+    },
+    "properties": {
+    "pm_name":"獅子頭景觀公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.446125,25.094342 ]
+    },
+    "properties": {
+    "pm_name":"成州公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.660962,24.07381 ]
+    },
+    "properties": {
+    "pm_name":"民義公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.389988,22.63307 ]
+    },
+    "properties": {
+    "pm_name":"坑口公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.636934,25.059176 ]
+    },
+    "properties": {
+    "pm_name":"二支郵局對面公園(兒六)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.433154,25.072022 ]
+    },
+    "properties": {
+    "pm_name":"朝陽公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.284381,22.616948 ]
+    },
+    "properties": {
+    "pm_name":"德音兒童休憩公園(兒七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.441247,25.08795 ]
+    },
+    "properties": {
+    "pm_name":"自然湧泉公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.457877,25.112517 ]
+    },
+    "properties": {
+    "pm_name":"成德公園(原公二公園)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.441081,25.087553 ]
+    },
+    "properties": {
+    "pm_name":"洲子洋公園(原公三公園)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.445004,25.08733 ]
+    },
+    "properties": {
+    "pm_name":"芳洲公園(公五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.767339,24.676852 ]
+    },
+    "properties": {
+    "pm_name":"新五公園(兒八)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.440231,25.087789 ]
+    },
+    "properties": {
+    "pm_name":"綠六綠地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.457877,25.112517 ]
+    },
+    "properties": {
+    "pm_name":"成德人行廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.441782,25.091675 ]
+    },
+    "properties": {
+    "pm_name":"御史路體育公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44408,25.090326 ]
+    },
+    "properties": {
+    "pm_name":"五股防災體健公園(文中二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.444332,25.092722 ]
+    },
+    "properties": {
+    "pm_name":"成功運動公園(兒三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44795,25.104636 ]
+    },
+    "properties": {
+    "pm_name":"天乙公園(兒一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.359477,22.592831 ]
+    },
+    "properties": {
+    "pm_name":"仁愛公園(公六)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.50356,25.010531 ]
+    },
+    "properties": {
+    "pm_name":"公一公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.284809,24.900692 ]
+    },
+    "properties": {
+    "pm_name":"大新社區公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.517514,25.011423 ]
+    },
+    "properties": {
+    "pm_name":"中興社區公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.518943,24.998398 ]
+    },
+    "properties": {
+    "pm_name":"民族街43巷公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.625716,24.207572 ]
+    },
+    "properties": {
+    "pm_name":"中正橋頭小公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.625716,24.207572 ]
+    },
+    "properties": {
+    "pm_name":"中正派出所邊小公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.518136,24.997995 ]
+    },
+    "properties": {
+    "pm_name":"民治街早市公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.507233,25.001163 ]
+    },
+    "properties": {
+    "pm_name":"雙和里社區公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.520323,25.012486 ]
+    },
+    "properties": {
+    "pm_name":"竹林路91巷公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516612,25.015524 ]
+    },
+    "properties": {
+    "pm_name":"復興社區公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.510079,25.004954 ]
+    },
+    "properties": {
+    "pm_name":"水源社區公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.508548,25.015604 ]
+    },
+    "properties": {
+    "pm_name":"保福社區公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.517366,24.996324 ]
+    },
+    "properties": {
+    "pm_name":"民族社區公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516694,25.011005 ]
+    },
+    "properties": {
+    "pm_name":"正興公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.517805,25.010863 ]
+    },
+    "properties": {
+    "pm_name":"永興公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.323369,22.56834 ]
+    },
+    "properties": {
+    "pm_name":"保生綠帶"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.524226,25.094779 ]
+    },
+    "properties": {
+    "pm_name":"永和國小旁綠美化據點"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.51818,25.001806 ]
+    },
+    "properties": {
+    "pm_name":"中正簡易公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.510581,25.005487 ]
+    },
+    "properties": {
+    "pm_name":"水源段綠地(水源段717-1地號)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516388,25.005613 ]
+    },
+    "properties": {
+    "pm_name":"秀朗廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.515967,24.995399 ]
+    },
+    "properties": {
+    "pm_name":"民享街黃昏市場公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.768555,24.68024 ]
+    },
+    "properties": {
+    "pm_name":"三角公園(公九)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.500947,22.773784 ]
+    },
+    "properties": {
+    "pm_name":"石門洞遊憩區(公二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.545404,25.28927 ]
+    },
+    "properties": {
+    "pm_name":"幸福雙心公園(公一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.569732,25.286116 ]
+    },
+    "properties": {
+    "pm_name":"新幸福公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.568204,25.29179 ]
+    },
+    "properties": {
+    "pm_name":"福安公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.593058,25.2686 ]
+    },
+    "properties": {
+    "pm_name":"魔法廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.790618,24.839293 ]
+    },
+    "properties": {
+    "pm_name":"二格公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.659536,25.068168 ]
+    },
+    "properties": {
+    "pm_name":"水返腳公園(公八)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.1912,23.554536 ]
+    },
+    "properties": {
+    "pm_name":"復興公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.636952,25.068635 ]
+    },
+    "properties": {
+    "pm_name":"康福公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.678478,25.064552 ]
+    },
+    "properties": {
+    "pm_name":"茄興公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.659075,25.045466 ]
+    },
+    "properties": {
+    "pm_name":"康誥坑公園(原文化白雲公園)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.9091,24.293968 ]
+    },
+    "properties": {
+    "pm_name":"湖興公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.631697,25.0678 ]
+    },
+    "properties": {
+    "pm_name":"新金龍公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.767339,24.676852 ]
+    },
+    "properties": {
+    "pm_name":"北峰公園(公兒六)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6212,25.053179 ]
+    },
+    "properties": {
+    "pm_name":"民權公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.747566,25.086394 ]
+    },
+    "properties": {
+    "pm_name":"東勢公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.673466,25.079243 ]
+    },
+    "properties": {
+    "pm_name":"保長公園(公兒九)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.781106,24.459466 ]
+    },
+    "properties": {
+    "pm_name":"原住民公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.707405,25.062998 ]
+    },
+    "properties": {
+    "pm_name":"姜子寮公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.555115,25.05169 ]
+    },
+    "properties": {
+    "pm_name":"林森公園(公二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.641756,25.067751 ]
+    },
+    "properties": {
+    "pm_name":"厚德綠地(公兒三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.618155,25.046623 ]
+    },
+    "properties": {
+    "pm_name":"白雲公園(公七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.65691,25.063684 ]
+    },
+    "properties": {
+    "pm_name":"汐止車站小廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.371094,25.071039 ]
+    },
+    "properties": {
+    "pm_name":"婦幼公園(公5)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.378965,25.045616 ]
+    },
+    "properties": {
+    "pm_name":"扶輪公園(公13)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.359987,25.077201 ]
+    },
+    "properties": {
+    "pm_name":"大崙公園(公鄰1)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.360827,25.073568 ]
+    },
+    "properties": {
+    "pm_name":"南勢公園(公鄰2)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.355975,25.069561 ]
+    },
+    "properties": {
+    "pm_name":"井泉公園(公鄰3)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.379424,25.090741 ]
+    },
+    "properties": {
+    "pm_name":"松柏公園(公鄰7)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.526808,25.090946 ]
+    },
+    "properties": {
+    "pm_name":"文林公園(公鄰8)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.766821,24.676313 ]
+    },
+    "properties": {
+    "pm_name":"湖南公園(公鄰9)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.768764,24.675779 ]
+    },
+    "properties": {
+    "pm_name":"翰林公園(公鄰10)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.74422,24.750258 ]
+    },
+    "properties": {
+    "pm_name":"力行公園(公鄰11)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.907417,24.682684 ]
+    },
+    "properties": {
+    "pm_name":"立德公園(公鄰12)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.147839,23.576485 ]
+    },
+    "properties": {
+    "pm_name":"立言公園(公鄰13)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.474895,25.083871 ]
+    },
+    "properties": {
+    "pm_name":"立功公園(公鄰14)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.384526,25.089127 ]
+    },
+    "properties": {
+    "pm_name":"宗北公園(公鄰21)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.171793,23.578467 ]
+    },
+    "properties": {
+    "pm_name":"一品公園(公鄰22)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.298018,24.96883 ]
+    },
+    "properties": {
+    "pm_name":"林口社區運動公園(小熊公園，公鄰23)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.367903,25.068715 ]
+    },
+    "properties": {
+    "pm_name":"麗林福德公園(公鄰24)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.169868,23.57994 ]
+    },
+    "properties": {
+    "pm_name":"四維公園(公鄰29)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.373197,25.069595 ]
+    },
+    "properties": {
+    "pm_name":"麗園公園(公鄰30)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.218311,23.122234 ]
+    },
+    "properties": {
+    "pm_name":"新北市林口區游泳池(公鄰31)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.695423,24.081141 ]
+    },
+    "properties": {
+    "pm_name":"東湖公園(公鄰32)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.388028,25.075543 ]
+    },
+    "properties": {
+    "pm_name":"隆林公園(公鄰33)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.390827,25.07125 ]
+    },
+    "properties": {
+    "pm_name":"東明公園(公鄰34)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.397686,25.074779 ]
+    },
+    "properties": {
+    "pm_name":"仁愛公園(公鄰35)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.397583,25.07012 ]
+    },
+    "properties": {
+    "pm_name":"新寮公園(公鄰36)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3979,25.077312 ]
+    },
+    "properties": {
+    "pm_name":"公鄰43"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.018122,24.836787 ]
+    },
+    "properties": {
+    "pm_name":"銅雕公園(公鄰45)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3979,25.077312 ]
+    },
+    "properties": {
+    "pm_name":"公鄰46"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.370276,25.068112 ]
+    },
+    "properties": {
+    "pm_name":"樂活公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3921,25.072742 ]
+    },
+    "properties": {
+    "pm_name":"興林公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.184792,23.583494 ]
+    },
+    "properties": {
+    "pm_name":"仁愛籃球場(廣一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.292892,22.790275 ]
+    },
+    "properties": {
+    "pm_name":"麗園籃球場(廣二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.292892,22.790275 ]
+    },
+    "properties": {
+    "pm_name":"東勢籃球場(廣三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.16578,23.620167 ]
+    },
+    "properties": {
+    "pm_name":"自強公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.378013,25.082726 ]
+    },
+    "properties": {
+    "pm_name":"富貴森林公園(公一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.525664,24.980004 ]
+    },
+    "properties": {
+    "pm_name":"樹林口公園(公鄰38)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.38969,25.073361 ]
+    },
+    "properties": {
+    "pm_name":"市17跳跳糖兒童遊戲場(市17)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.17654,23.572687 ]
+    },
+    "properties": {
+    "pm_name":"足夢公園(文小18)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "pm_name":"興林口公園(公鄰37)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.51103,22.603365 ]
+    },
+    "properties": {
+    "pm_name":"727地號公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "pm_name":"櫻花公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.37641,25.080739 ]
+    },
+    "properties": {
+    "pm_name":"吉祥影視公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.806864,25.10734 ]
+    },
+    "properties": {
+    "pm_name":"公鄰28公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469114,25.030259 ]
+    },
+    "properties": {
+    "pm_name":"農村公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469114,25.030259 ]
+    },
+    "properties": {
+    "pm_name":"石雕公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.475227,25.027831 ]
+    },
+    "properties": {
+    "pm_name":"八德公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.723239,24.245596 ]
+    },
+    "properties": {
+    "pm_name":"四維公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.455677,25.02638 ]
+    },
+    "properties": {
+    "pm_name":"玫瑰公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.453538,25.020347 ]
+    },
+    "properties": {
+    "pm_name":"國光公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.275679,23.794811 ]
+    },
+    "properties": {
+    "pm_name":"資訊公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.594407,23.988784 ]
+    },
+    "properties": {
+    "pm_name":"中山公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.158498,23.614146 ]
+    },
+    "properties": {
+    "pm_name":"華江公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.473051,25.016698 ]
+    },
+    "properties": {
+    "pm_name":"莊敬公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.451672,25.017303 ]
+    },
+    "properties": {
+    "pm_name":"環河公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.446406,25.014825 ]
+    },
+    "properties": {
+    "pm_name":"華中公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.477438,25.024431 ]
+    },
+    "properties": {
+    "pm_name":"永安公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.477064,25.021047 ]
+    },
+    "properties": {
+    "pm_name":"永豐公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.47682,25.01366 ]
+    },
+    "properties": {
+    "pm_name":"民生公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "pm_name":"介壽公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.464812,24.997808 ]
+    },
+    "properties": {
+    "pm_name":"和平公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460104,24.997434 ]
+    },
+    "properties": {
+    "pm_name":"忠孝公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.51366,25.068592 ]
+    },
+    "properties": {
+    "pm_name":"仁愛公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.453462,24.992598 ]
+    },
+    "properties": {
+    "pm_name":"華德公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.452975,24.999591 ]
+    },
+    "properties": {
+    "pm_name":"南雅公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.19212,24.958849 ]
+    },
+    "properties": {
+    "pm_name":"廣福公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.465028,24.993079 ]
+    },
+    "properties": {
+    "pm_name":"五權公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.604848,23.969783 ]
+    },
+    "properties": {
+    "pm_name":"重慶公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.620288,24.349439 ]
+    },
+    "properties": {
+    "pm_name":"信義公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.429128,24.992684 ]
+    },
+    "properties": {
+    "pm_name":"崑崙公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.431579,24.990281 ]
+    },
+    "properties": {
+    "pm_name":"溪北公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.426612,24.988475 ]
+    },
+    "properties": {
+    "pm_name":"溪州公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450452,24.995569 ]
+    },
+    "properties": {
+    "pm_name":"華東公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.607554,23.981332 ]
+    },
+    "properties": {
+    "pm_name":"音樂公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45622,23.483325 ]
+    },
+    "properties": {
+    "pm_name":"公兒二公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.446295,25.00232 ]
+    },
+    "properties": {
+    "pm_name":"台北紙廠簡易公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.51192,25.044632 ]
+    },
+    "properties": {
+    "pm_name":"光復簡易公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.466759,25.010521 ]
+    },
+    "properties": {
+    "pm_name":"福德公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.158498,23.614146 ]
+    },
+    "properties": {
+    "pm_name":"六海園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.376004,24.943704 ]
+    },
+    "properties": {
+    "pm_name":"親民公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.454459,25.003293 ]
+    },
+    "properties": {
+    "pm_name":"華陽公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.445956,25.010793 ]
+    },
+    "properties": {
+    "pm_name":"大觀公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.166792,23.376785 ]
+    },
+    "properties": {
+    "pm_name":"埔墘公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.309013,25.091705 ]
+    },
+    "properties": {
+    "pm_name":"大豐公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.432886,24.993969 ]
+    },
+    "properties": {
+    "pm_name":"崑崙活力廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.448524,25.011251 ]
+    },
+    "properties": {
+    "pm_name":"浮洲運動公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.16324,23.617841 ]
+    },
+    "properties": {
+    "pm_name":"萬坪公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.16324,23.617841 ]
+    },
+    "properties": {
+    "pm_name":"站前廣場公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.51192,25.044632 ]
+    },
+    "properties": {
+    "pm_name":"光環綠地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.542861,24.97918 ]
+    },
+    "properties": {
+    "pm_name":"仁化綠地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460491,25.020547 ]
+    },
+    "properties": {
+    "pm_name":"幸福綠地公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.483091,25.023659 ]
+    },
+    "properties": {
+    "pm_name":"江子翠抽水站簡易公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.457576,25.007726 ]
+    },
+    "properties": {
+    "pm_name":"府中綠地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.474111,24.998724 ]
+    },
+    "properties": {
+    "pm_name":"海山綠地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.642933,24.966378 ]
+    },
+    "properties": {
+    "pm_name":"湳仔綠地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.471183,25.034372 ]
+    },
+    "properties": {
+    "pm_name":"溪頭公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.415828,22.64376 ]
+    },
+    "properties": {
+    "pm_name":"稚匯公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.470186,25.035952 ]
+    },
+    "properties": {
+    "pm_name":"時光公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.415828,22.64376 ]
+    },
+    "properties": {
+    "pm_name":"華江123木頭園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.481682,25.032634 ]
+    },
+    "properties": {
+    "pm_name":"懷石公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.229393,25.051624 ]
+    },
+    "properties": {
+    "pm_name":"望月公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450915,25.020658 ]
+    },
+    "properties": {
+    "pm_name":"藝香公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450246,25.019405 ]
+    },
+    "properties": {
+    "pm_name":"雙社公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.45236,25.02242 ]
+    },
+    "properties": {
+    "pm_name":"文丘公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.633038,24.009701 ]
+    },
+    "properties": {
+    "pm_name":"公九公園(浮洲都市計畫區)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.444236,25.0063 ]
+    },
+    "properties": {
+    "pm_name":"馥華公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458337,25.013819 ]
+    },
+    "properties": {
+    "pm_name":"板橋第二運動場區三角公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458337,25.013819 ]
+    },
+    "properties": {
+    "pm_name":"板橋第二運動場區社後公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458337,25.013819 ]
+    },
+    "properties": {
+    "pm_name":"板橋第二運動場區板信公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456299,25.030252 ]
+    },
+    "properties": {
+    "pm_name":"綠二綠地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456299,25.030252 ]
+    },
+    "properties": {
+    "pm_name":"綠三綠地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.453442,25.02617 ]
+    },
+    "properties": {
+    "pm_name":"綠四綠地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.454478,25.00877 ]
+    },
+    "properties": {
+    "pm_name":"柏壽公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.473457,25.023151 ]
+    },
+    "properties": {
+    "pm_name":"埤墘公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.37577,24.943462 ]
+    },
+    "properties": {
+    "pm_name":"馥華園美捐贈公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459134,25.00328 ]
+    },
+    "properties": {
+    "pm_name":"大華街182巷5號對面公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.464293,25.007134 ]
+    },
+    "properties": {
+    "pm_name":"民族公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.641513,25.221585 ]
+    },
+    "properties": {
+    "pm_name":"中山溫泉公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.644641,25.221893 ]
+    },
+    "properties": {
+    "pm_name":"豐漁里公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.16578,23.620167 ]
+    },
+    "properties": {
+    "pm_name":"飛撲綠地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.613225,25.213932 ]
+    },
+    "properties": {
+    "pm_name":"運動休閒廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.637981,25.21732 ]
+    },
+    "properties": {
+    "pm_name":"公館崙公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.634695,25.222867 ]
+    },
+    "properties": {
+    "pm_name":"流蘇公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.640525,25.220182 ]
+    },
+    "properties": {
+    "pm_name":"櫻花公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.635753,25.219502 ]
+    },
+    "properties": {
+    "pm_name":"杜鵑公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.434783,25.061944 ]
+    },
+    "properties": {
+    "pm_name":"楓樹腳公園 (公兒2)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.923833,25.053473 ]
+    },
+    "properties": {
+    "pm_name":"同興公園 (公兒4)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.434954,25.064519 ]
+    },
+    "properties": {
+    "pm_name":"和平公園(公兒6)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.432799,25.05934 ]
+    },
+    "properties": {
+    "pm_name":"全興公園 (公兒7)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.249112,23.183791 ]
+    },
+    "properties": {
+    "pm_name":"福泰公園 (公兒8)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.182004,23.58631 ]
+    },
+    "properties": {
+    "pm_name":"福興公園 (公兒9)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.433923,25.056703 ]
+    },
+    "properties": {
+    "pm_name":"仁愛公園 (公兒10)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.428625,25.057823 ]
+    },
+    "properties": {
+    "pm_name":"辭修公園(公 1)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.423291,25.037328 ]
+    },
+    "properties": {
+    "pm_name":"貴和兒童公園(兒2)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.43006,25.05904 ]
+    },
+    "properties": {
+    "pm_name":"文史影像公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.432009,25.060037 ]
+    },
+    "properties": {
+    "pm_name":"後山公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.427644,25.065316 ]
+    },
+    "properties": {
+    "pm_name":"山腳公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.420116,25.029055 ]
+    },
+    "properties": {
+    "pm_name":"貴子兒童公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.413875,25.067977 ]
+    },
+    "properties": {
+    "pm_name":"三角公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.405159,25.055115 ]
+    },
+    "properties": {
+    "pm_name":"崩崁腳公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.421207,25.061141 ]
+    },
+    "properties": {
+    "pm_name":"黎明公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.420116,25.029055 ]
+    },
+    "properties": {
+    "pm_name":"義學坑自然公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.636825,25.22165 ]
+    },
+    "properties": {
+    "pm_name":"楓樹河濱公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.420116,25.029055 ]
+    },
+    "properties": {
+    "pm_name":"文程廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438387,25.053391 ]
+    },
+    "properties": {
+    "pm_name":"黎明步道花園（綠地）"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.439605,25.045048 ]
+    },
+    "properties": {
+    "pm_name":"公九"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.432748,25.048163 ]
+    },
+    "properties": {
+    "pm_name":"泰山捷運公園(公3)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.423885,25.043718 ]
+    },
+    "properties": {
+    "pm_name":"應化大排生態園區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.435149,25.05425 ]
+    },
+    "properties": {
+    "pm_name":"仁德公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.408781,25.044368 ]
+    },
+    "properties": {
+    "pm_name":"南林生態公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.420855,25.030571 ]
+    },
+    "properties": {
+    "pm_name":"貴和廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.428995,25.054418 ]
+    },
+    "properties": {
+    "pm_name":"泰山體育園區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.542969,24.860336 ]
+    },
+    "properties": {
+    "pm_name":"烏來原住民主題公園(公三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.898456,25.020518 ]
+    },
+    "properties": {
+    "pm_name":"環保公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.835483,24.613482 ]
+    },
+    "properties": {
+    "pm_name":"澳底公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.928314,25.036139 ]
+    },
+    "properties": {
+    "pm_name":"龍門公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.197674,25.064181 ]
+    },
+    "properties": {
+    "pm_name":"百齡公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44138,25.174429 ]
+    },
+    "properties": {
+    "pm_name":"衛教公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.465084,25.138759 ]
+    },
+    "properties": {
+    "pm_name":"竹圍公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.43767,25.171956 ]
+    },
+    "properties": {
+    "pm_name":"觀潮公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.423701,25.18452 ]
+    },
+    "properties": {
+    "pm_name":"文中四公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.521443,25.049209 ]
+    },
+    "properties": {
+    "pm_name":"中山北帶狀公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.216752,25.056668 ]
+    },
+    "properties": {
+    "pm_name":"安伯樂公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.425286,25.177059 ]
+    },
+    "properties": {
+    "pm_name":"和平公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.521443,25.049209 ]
+    },
+    "properties": {
+    "pm_name":"文中8公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.770372,24.689528 ]
+    },
+    "properties": {
+    "pm_name":"油車1公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.423409,25.178883 ]
+    },
+    "properties": {
+    "pm_name":"油車2公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.313758,22.940915 ]
+    },
+    "properties": {
+    "pm_name":"油車3公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.424716,25.184011 ]
+    },
+    "properties": {
+    "pm_name":"油車4公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "pm_name":"大庄1公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.439031,25.17227 ]
+    },
+    "properties": {
+    "pm_name":"協元1公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.439684,25.173162 ]
+    },
+    "properties": {
+    "pm_name":"協元2公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.442285,25.172725 ]
+    },
+    "properties": {
+    "pm_name":"中興公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5027,25.259503 ]
+    },
+    "properties": {
+    "pm_name":"賢孝公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.760052,25.141545 ]
+    },
+    "properties": {
+    "pm_name":"藝術穿堂"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.19727,25.064111 ]
+    },
+    "properties": {
+    "pm_name":"淡水新市鎮兒童公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443342,25.186389 ]
+    },
+    "properties": {
+    "pm_name":"公8公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.759749,25.141419 ]
+    },
+    "properties": {
+    "pm_name":"木下淨涯週邊開放空間"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.575002,22.752063 ]
+    },
+    "properties": {
+    "pm_name":"馬偕三角銅像公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.447593,25.167087 ]
+    },
+    "properties": {
+    "pm_name":"運動公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.648423,24.123143 ]
+    },
+    "properties": {
+    "pm_name":"滬尾砲臺公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.428592,25.20021 ]
+    },
+    "properties": {
+    "pm_name":"公22公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.543949,24.969177 ]
+    },
+    "properties": {
+    "pm_name":"公23公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.754995,24.744572 ]
+    },
+    "properties": {
+    "pm_name":"福德公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.43767,25.171956 ]
+    },
+    "properties": {
+    "pm_name":"淡水老街廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44074,25.179634 ]
+    },
+    "properties": {
+    "pm_name":"新民公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.497332,24.17919 ]
+    },
+    "properties": {
+    "pm_name":"公7公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.905087,24.684636 ]
+    },
+    "properties": {
+    "pm_name":"竹圍民權公園(竹圍公兒十)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.445554,25.168232 ]
+    },
+    "properties": {
+    "pm_name":"新北市忠烈祠(非公園，公1)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.424739,25.196563 ]
+    },
+    "properties": {
+    "pm_name":"新濱公園(公21)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.429665,25.188315 ]
+    },
+    "properties": {
+    "pm_name":"公七公園(公七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.615511,25.001599 ]
+    },
+    "properties": {
+    "pm_name":"深坑兒童遊戲場(兒一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.621039,25.004469 ]
+    },
+    "properties": {
+    "pm_name":"萬福公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.601915,25.002694 ]
+    },
+    "properties": {
+    "pm_name":"帝品苑旁兒童遊戲場(兒二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.526563,24.977577 ]
+    },
+    "properties": {
+    "pm_name":"中央八街底公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.567758,22.607417 ]
+    },
+    "properties": {
+    "pm_name":"中興公園(公一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.367433,24.923656 ]
+    },
+    "properties": {
+    "pm_name":"福民公園 (公六1一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.648703,24.125678 ]
+    },
+    "properties": {
+    "pm_name":"五峰公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.614504,25.066695 ]
+    },
+    "properties": {
+    "pm_name":"安康森林公園(公十一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.548442,25.06322 ]
+    },
+    "properties": {
+    "pm_name":"交通公園(公三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.452046,22.918984 ]
+    },
+    "properties": {
+    "pm_name":"安華公園(公五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.542372,24.968144 ]
+    },
+    "properties": {
+    "pm_name":"馬公公園(公十)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.543861,24.972538 ]
+    },
+    "properties": {
+    "pm_name":"原野公園(公八)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.501244,25.067696 ]
+    },
+    "properties": {
+    "pm_name":"安和景觀公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.548442,25.06322 ]
+    },
+    "properties": {
+    "pm_name":"大豐公園(公二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.540218,24.969086 ]
+    },
+    "properties": {
+    "pm_name":"瑠公公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.548442,25.06322 ]
+    },
+    "properties": {
+    "pm_name":"小金門公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.433392,24.964755 ]
+    },
+    "properties": {
+    "pm_name":"天山公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.536375,24.971366 ]
+    },
+    "properties": {
+    "pm_name":"三民公園(公七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.513187,24.958484 ]
+    },
+    "properties": {
+    "pm_name":"原民局公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.550514,25.057789 ]
+    },
+    "properties": {
+    "pm_name":"太平運動公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.541816,24.969321 ]
+    },
+    "properties": {
+    "pm_name":"北新藝術廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.794427,24.860587 ]
+    },
+    "properties": {
+    "pm_name":"青潭河濱公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.751279,24.670755 ]
+    },
+    "properties": {
+    "pm_name":"廣興河濱公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.751279,24.670755 ]
+    },
+    "properties": {
+    "pm_name":"市民農園公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.751548,24.743102 ]
+    },
+    "properties": {
+    "pm_name":"仁愛亭公園(櫻花公園)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.294552,22.627643 ]
+    },
+    "properties": {
+    "pm_name":"屈尺景觀公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459625,24.919706 ]
+    },
+    "properties": {
+    "pm_name":"安坑國小前公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.51577,24.965026 ]
+    },
+    "properties": {
+    "pm_name":"安民街26號兩側綠地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.511152,24.96053 ]
+    },
+    "properties": {
+    "pm_name":"安成公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.510322,24.961677 ]
+    },
+    "properties": {
+    "pm_name":"龍園公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.510754,24.962753 ]
+    },
+    "properties": {
+    "pm_name":"安德街60巷綠地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516718,24.970486 ]
+    },
+    "properties": {
+    "pm_name":"安民街179號旁公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5167,24.967031 ]
+    },
+    "properties": {
+    "pm_name":"碧安公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516891,24.9669 ]
+    },
+    "properties": {
+    "pm_name":"碧安2號公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.511775,24.993303 ]
+    },
+    "properties": {
+    "pm_name":"安和路1段55號旁公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516737,24.970294 ]
+    },
+    "properties": {
+    "pm_name":"吉安公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.503716,25.13719 ]
+    },
+    "properties": {
+    "pm_name":"新和活動中心兩側公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.494806,24.949002 ]
+    },
+    "properties": {
+    "pm_name":"中央公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.526563,24.977577 ]
+    },
+    "properties": {
+    "pm_name":"湯泉公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.544267,24.977074 ]
+    },
+    "properties": {
+    "pm_name":"寶徠公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.547415,24.916761 ]
+    },
+    "properties": {
+    "pm_name":"龜山河濱公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.551784,24.906762 ]
+    },
+    "properties": {
+    "pm_name":"龜山活動中心旁公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.549784,24.900132 ]
+    },
+    "properties": {
+    "pm_name":"上龜山橋旁綠地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.526787,24.979746 ]
+    },
+    "properties": {
+    "pm_name":"十四張歷史公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.527159,24.977585 ]
+    },
+    "properties": {
+    "pm_name":"中央鄰里公園(鄰公兒)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512471,24.963713 ]
+    },
+    "properties": {
+    "pm_name":"安光公園(公兒一、公兒二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.546869,24.97893 ]
+    },
+    "properties": {
+    "pm_name":"裕隆公園(綠湖公園，公(兒)一、公(兒)二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.653637,25.06332 ]
+    },
+    "properties": {
+    "pm_name":"西盛公園(公4)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.547114,25.027538 ]
+    },
+    "properties": {
+    "pm_name":"四維公園(公3)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.653637,25.06332 ]
+    },
+    "properties": {
+    "pm_name":"龍鳳公園(公2(西)、公17(東))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.419734,25.020079 ]
+    },
+    "properties": {
+    "pm_name":"萬安公園(公21)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.428299,25.025821 ]
+    },
+    "properties": {
+    "pm_name":"後港公園(公3-1)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44465,25.037643 ]
+    },
+    "properties": {
+    "pm_name":"新泰公園(公6)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.595612,23.990684 ]
+    },
+    "properties": {
+    "pm_name":"富國公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.411241,25.020138 ]
+    },
+    "properties": {
+    "pm_name":"龍福公園(公兒一(龍壽迴龍都市計畫))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.437572,25.032685 ]
+    },
+    "properties": {
+    "pm_name":"福營公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.42429,25.02552 ]
+    },
+    "properties": {
+    "pm_name":"雙福公園(公23 / 兒1)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4432,25.029793 ]
+    },
+    "properties": {
+    "pm_name":"瓊泰公園(公16)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.299875,24.997212 ]
+    },
+    "properties": {
+    "pm_name":"後港新公園(公14)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.54801,25.029287 ]
+    },
+    "properties": {
+    "pm_name":"福營休閒廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.43517,25.004136 ]
+    },
+    "properties": {
+    "pm_name":"新樹公園(公兒五(樹林(三多里地區)都市計畫))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.517544,25.001764 ]
+    },
+    "properties": {
+    "pm_name":"福營綠廊"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.400504,25.039616 ]
+    },
+    "properties": {
+    "pm_name":"水源地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.410836,25.032459 ]
+    },
+    "properties": {
+    "pm_name":"青年公園(公20、公14(林口特定區計畫))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.772687,24.669888 ]
+    },
+    "properties": {
+    "pm_name":"長青公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.753406,24.748154 ]
+    },
+    "properties": {
+    "pm_name":"中港三角公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.444815,25.049546 ]
+    },
+    "properties": {
+    "pm_name":"新泰三角公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.447829,25.054099 ]
+    },
+    "properties": {
+    "pm_name":"黃城公園(公10)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.457134,25.068476 ]
+    },
+    "properties": {
+    "pm_name":"興化公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.457995,25.05319 ]
+    },
+    "properties": {
+    "pm_name":"福壽公園(公11)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.604697,23.978068 ]
+    },
+    "properties": {
+    "pm_name":"思賢公園(公9)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.444815,25.049546 ]
+    },
+    "properties": {
+    "pm_name":"中平公園(公8)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.596371,23.969856 ]
+    },
+    "properties": {
+    "pm_name":"新莊公園(公7)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.744549,24.757365 ]
+    },
+    "properties": {
+    "pm_name":"文德社區公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.744549,24.757365 ]
+    },
+    "properties": {
+    "pm_name":"榮和公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443242,25.02621 ]
+    },
+    "properties": {
+    "pm_name":"碧江公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.319778,22.589925 ]
+    },
+    "properties": {
+    "pm_name":"興漢公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.429823,25.026264 ]
+    },
+    "properties": {
+    "pm_name":"建安公園(公15)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.425348,25.027497 ]
+    },
+    "properties": {
+    "pm_name":"後德公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.434718,25.006087 ]
+    },
+    "properties": {
+    "pm_name":"萬善公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.451301,25.057117 ]
+    },
+    "properties": {
+    "pm_name":"昌平公園(公兒一(副都心中心地區))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.427723,25.027929 ]
+    },
+    "properties": {
+    "pm_name":"建福公園(兒2)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.415411,25.030962 ]
+    },
+    "properties": {
+    "pm_name":"生命紀念公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443762,25.029521 ]
+    },
+    "properties": {
+    "pm_name":"瓊泰河濱公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.451962,25.046364 ]
+    },
+    "properties": {
+    "pm_name":"中港厝休閒廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462073,25.050333 ]
+    },
+    "properties": {
+    "pm_name":"頭前運動公園(公18 &國中7 /公二&文中(頭前重劃區))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.544373,24.174136 ]
+    },
+    "properties": {
+    "pm_name":"新泰籃球場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.176954,23.574349 ]
+    },
+    "properties": {
+    "pm_name":"福基公園(公一(頭前重劃區))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.176954,23.574349 ]
+    },
+    "properties": {
+    "pm_name":"福美公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.446108,25.039903 ]
+    },
+    "properties": {
+    "pm_name":"新泰綠地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460819,25.047229 ]
+    },
+    "properties": {
+    "pm_name":"化成公園(兒二(頭前重劃區))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.335123,24.992707 ]
+    },
+    "properties": {
+    "pm_name":"西盛廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.544373,24.174136 ]
+    },
+    "properties": {
+    "pm_name":"瓊林公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443132,25.03012 ]
+    },
+    "properties": {
+    "pm_name":"快樂公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.445779,25.044784 ]
+    },
+    "properties": {
+    "pm_name":"中港公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.41522,25.025675 ]
+    },
+    "properties": {
+    "pm_name":"雙鳳公園(公兒五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443992,25.057671 ]
+    },
+    "properties": {
+    "pm_name":"愛鳥公園(公22(產業專用區及其周邊地區))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.175402,25.073583 ]
+    },
+    "properties": {
+    "pm_name":"福智1號廣場(公23(產業專用區及其周邊地區))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.455671,25.060358 ]
+    },
+    "properties": {
+    "pm_name":"福智公園(公24(產業專用區及其周邊地區))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.457539,25.061676 ]
+    },
+    "properties": {
+    "pm_name":"福慧都會公園(公25(產業專用區及其周邊地區))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.461963,25.063385 ]
+    },
+    "properties": {
+    "pm_name":"福聚公園(公26(產業專用區及其周邊地區))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.46371,25.062867 ]
+    },
+    "properties": {
+    "pm_name":"福祿1號公園(公27)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.46371,25.062867 ]
+    },
+    "properties": {
+    "pm_name":"福祿2號公園(公28(產業專用區及其周邊地區))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.523898,22.626978 ]
+    },
+    "properties": {
+    "pm_name":"福祿3號公園(公29(產業專用區及其周邊地區))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462074,25.047876 ]
+    },
+    "properties": {
+    "pm_name":"福祿4號公園(公30(產業專用區及其周邊地區))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.612207,25.054207 ]
+    },
+    "properties": {
+    "pm_name":"福祿5號公園(公31(產業專用區及其周邊地區))"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.682205,24.14008 ]
+    },
+    "properties": {
+    "pm_name":"忠孝公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.508994,25.025115 ]
+    },
+    "properties": {
+    "pm_name":"塭仔底濕地公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.447407,25.040267 ]
+    },
+    "properties": {
+    "pm_name":"新莊體育園區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.827274,25.109172 ]
+    },
+    "properties": {
+    "pm_name":"瑞芳公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.763816,25.102833 ]
+    },
+    "properties": {
+    "pm_name":"四腳亭公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.762744,25.10267 ]
+    },
+    "properties": {
+    "pm_name":"吉慶公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "pm_name":"蝙蝠洞公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.807727,25.107606 ]
+    },
+    "properties": {
+    "pm_name":"區民廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "pm_name":"榮興公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.478134,24.164804 ]
+    },
+    "properties": {
+    "pm_name":"濱二路公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.652293,24.665458 ]
+    },
+    "properties": {
+    "pm_name":"安德公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.504566,25.032435 ]
+    },
+    "properties": {
+    "pm_name":"吉安兒童公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.281167,22.665136 ]
+    },
+    "properties": {
+    "pm_name":"龍山里休閒廣場(瑞芳都市計畫)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.67864,24.101776 ]
+    },
+    "properties": {
+    "pm_name":"瑞芳區立棒球場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "pm_name":"瑞芳運動公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.806864,25.10734 ]
+    },
+    "properties": {
+    "pm_name":"建成公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.760452,24.672257 ]
+    },
+    "properties": {
+    "pm_name":"獅子公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.68011,25.168132 ]
+    },
+    "properties": {
+    "pm_name":"中福觀光公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.68766,25.203846 ]
+    },
+    "properties": {
+    "pm_name":"野柳休閒公園(公3)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.688392,25.181984 ]
+    },
+    "properties": {
+    "pm_name":"瑪鋉公園(公兒一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.678276,25.166845 ]
+    },
+    "properties": {
+    "pm_name":"萬里觀光公園(公一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.686386,25.194132 ]
+    },
+    "properties": {
+    "pm_name":"螃蟹主題公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.692864,25.179367 ]
+    },
+    "properties": {
+    "pm_name":"瑪鋉運動公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.692864,25.179367 ]
+    },
+    "properties": {
+    "pm_name":"萬里幸福廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.68766,25.203846 ]
+    },
+    "properties": {
+    "pm_name":"野柳兒童遊戲場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.403848,25.015429 ]
+    },
+    "properties": {
+    "pm_name":"中山公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.409963,25.017492 ]
+    },
+    "properties": {
+    "pm_name":"三龍公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.418915,24.996581 ]
+    },
+    "properties": {
+    "pm_name":"潭底公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.67245,24.307514 ]
+    },
+    "properties": {
+    "pm_name":"大同公園(公14)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.1912,23.554536 ]
+    },
+    "properties": {
+    "pm_name":"長壽親子公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.412806,24.982329 ]
+    },
+    "properties": {
+    "pm_name":"鎮前親子公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.427962,24.994103 ]
+    },
+    "properties": {
+    "pm_name":"民生公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.421302,24.985252 ]
+    },
+    "properties": {
+    "pm_name":"和平親子公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3932,24.97173 ]
+    },
+    "properties": {
+    "pm_name":"山仔腳公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.520675,23.595503 ]
+    },
+    "properties": {
+    "pm_name":"民權公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.513006,25.059176 ]
+    },
+    "properties": {
+    "pm_name":"光華公園(公六)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.381874,24.947831 ]
+    },
+    "properties": {
+    "pm_name":"兒三公園(兒二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.37388,24.946616 ]
+    },
+    "properties": {
+    "pm_name":"萬坪公園（景觀休憩公園）"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.513006,25.059176 ]
+    },
+    "properties": {
+    "pm_name":"獇寮公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.379802,24.947018 ]
+    },
+    "properties": {
+    "pm_name":"森林公園(兒二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.769065,24.675146 ]
+    },
+    "properties": {
+    "pm_name":"鹿角溪公園(山佳公二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.424198,24.991748 ]
+    },
+    "properties": {
+    "pm_name":"樹林後站廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.393169,24.97023 ]
+    },
+    "properties": {
+    "pm_name":"山佳車站廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.459495,23.123362 ]
+    },
+    "properties": {
+    "pm_name":"中正陸橋下廣場"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.417021,24.980999 ]
+    },
+    "properties": {
+    "pm_name":"太元公園(廣兼停)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.423325,24.991322 ]
+    },
+    "properties": {
+    "pm_name":"東昇公園(公兒三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.425713,24.982387 ]
+    },
+    "properties": {
+    "pm_name":"樹林體育園區(公21)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.390693,24.969409 ]
+    },
+    "properties": {
+    "pm_name":"山佳公兒5"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.422014,24.979689 ]
+    },
+    "properties": {
+    "pm_name":"公15"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.422187,24.979845 ]
+    },
+    "properties": {
+    "pm_name":"彭福公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.390693,24.969409 ]
+    },
+    "properties": {
+    "pm_name":"育德公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.545906,25.036036 ]
+    },
+    "properties": {
+    "pm_name":"彭興親子公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.409453,25.01425 ]
+    },
+    "properties": {
+    "pm_name":"新北市武器公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.83258,24.249574 ]
+    },
+    "properties": {
+    "pm_name":"雙溪公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.416991,24.983128 ]
+    },
+    "properties": {
+    "pm_name":"雙溪兒童公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.85166,25.06014 ]
+    },
+    "properties": {
+    "pm_name":"三貂運動公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.315896,24.954287 ]
+    },
+    "properties": {
+    "pm_name":"長安公園(公八)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.474559,25.011718 ]
+    },
+    "properties": {
+    "pm_name":"永康公園(公七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459174,25.090359 ]
+    },
+    "properties": {
+    "pm_name":"永平公園(公五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.148876,23.577758 ]
+    },
+    "properties": {
+    "pm_name":"九芎公園(公九)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459974,25.093884 ]
+    },
+    "properties": {
+    "pm_name":"三民公園(公四)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.481431,25.083647 ]
+    },
+    "properties": {
+    "pm_name":"尼加拉瓜公園(公兒三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.483165,25.085025 ]
+    },
+    "properties": {
+    "pm_name":"三蘆公園(公兒二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.291171,25.007721 ]
+    },
+    "properties": {
+    "pm_name":"永安兒童公園(公兒四)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.483517,25.086687 ]
+    },
+    "properties": {
+    "pm_name":"重陽公園(公兒一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.777763,24.675029 ]
+    },
+    "properties": {
+    "pm_name":"柳堤公園(公十二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462986,25.086233 ]
+    },
+    "properties": {
+    "pm_name":"中原公園(公十三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.849674,24.59638 ]
+    },
+    "properties": {
+    "pm_name":"正義公園(公十四)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.185794,23.547132 ]
+    },
+    "properties": {
+    "pm_name":"彩虹兒童公園(兒十)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458806,25.086997 ]
+    },
+    "properties": {
+    "pm_name":"大地兒童公園(兒十一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.76997,24.826588 ]
+    },
+    "properties": {
+    "pm_name":"溪墘公園(公三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.470252,25.090443 ]
+    },
+    "properties": {
+    "pm_name":"仁愛公園(公十五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.468415,25.082004 ]
+    },
+    "properties": {
+    "pm_name":"中路兒童公園(兒八)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459734,25.087215 ]
+    },
+    "properties": {
+    "pm_name":"捷運公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.45563,25.088257 ]
+    },
+    "properties": {
+    "pm_name":"環河公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.47492,25.012315 ]
+    },
+    "properties": {
+    "pm_name":"成功廣場(廣三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459174,25.090359 ]
+    },
+    "properties": {
+    "pm_name":"永平廣場(廣一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.470252,25.090443 ]
+    },
+    "properties": {
+    "pm_name":"仁愛廣場(人廣一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.769496,24.673492 ]
+    },
+    "properties": {
+    "pm_name":"鷺江廣場(人廣二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.566212,23.941394 ]
+    },
+    "properties": {
+    "pm_name":"中山廣場(人廣三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.16578,23.620167 ]
+    },
+    "properties": {
+    "pm_name":"三角綠地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.473778,25.0847 ]
+    },
+    "properties": {
+    "pm_name":"蘆洲公園(公一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.185656,23.584686 ]
+    },
+    "properties": {
+    "pm_name":"大地兒童公園(兒十一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.467825,25.082241 ]
+    },
+    "properties": {
+    "pm_name":"中路公園擴建(兒八)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.481528,25.08884 ]
+    },
+    "properties": {
+    "pm_name":"兒五樓厝公園(兒五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.478176,25.083168 ]
+    },
+    "properties": {
+    "pm_name":"九三親子公園(公十)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.477007,25.090279 ]
+    },
+    "properties": {
+    "pm_name":"兒四公園(兒四)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.479848,25.081936 ]
+    },
+    "properties": {
+    "pm_name":"兒九公園(兒九)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.471224,25.09424 ]
+    },
+    "properties": {
+    "pm_name":"兒一環保公園(兒一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.48118,25.088713 ]
+    },
+    "properties": {
+    "pm_name":"公五公園(公兒五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43619,23.484041 ]
+    },
+    "properties": {
+    "pm_name":"三號公園(公三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.281132,24.964284 ]
+    },
+    "properties": {
+    "pm_name":"北鶯公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.334436,24.969447 ]
+    },
+    "properties": {
+    "pm_name":"鳳鳴公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.342907,24.954609 ]
+    },
+    "properties": {
+    "pm_name":"地標公園(公七)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.347103,24.948323 ]
+    },
+    "properties": {
+    "pm_name":"尖山公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.608199,23.97868 ]
+    },
+    "properties": {
+    "pm_name":"西鶯公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.345059,24.948886 ]
+    },
+    "properties": {
+    "pm_name":"尖二公園(公兒二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.337408,24.96169 ]
+    },
+    "properties": {
+    "pm_name":"永吉公園(鳳鳴公二)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.339958,24.95734 ]
+    },
+    "properties": {
+    "pm_name":"昌福公園(公兒一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.337837,24.93976 ]
+    },
+    "properties": {
+    "pm_name":"公兒五公園(公兒五)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.330889,24.963491 ]
+    },
+    "properties": {
+    "pm_name":"鳳祥公園(鳳鳴公兒三)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "pm_name":"鳳福公園(鳳鳴細兒一)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.340733,24.941853 ]
+    },
+    "properties": {
+    "pm_name":"尖福公園(公兒四)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.35756,24.951394 ]
+    },
+    "properties": {
+    "pm_name":"鶯歌國民運動中心"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.787252,25.048568 ]
+    },
+    "properties": {
+    "pm_name":"十分瀑布公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.775806,25.041931 ]
+    },
+    "properties": {
+    "pm_name":"十分公園"
+    }
+  }
+]
+}
