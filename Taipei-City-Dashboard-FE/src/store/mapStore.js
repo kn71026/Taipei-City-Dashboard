@@ -1881,14 +1881,14 @@ export const useMapStore = defineStore("map", {
 			// 非聚合的點 (point)
 			this.map.addLayer({
 				id: `${layerId}-point`,
-				type: "symbol",
+				type: "circle",
 				source: sourceId,
 				filter: ["!", ["has", "point_count"]],
-				layout: {
-					"icon-image": "bike_green", // 這是你 addImage() 的名稱
-					"icon-size": 1.2,
-					"icon-allow-overlap": true,
-					"icon-anchor": "bottom",
+				paint: {
+					"circle-color": "#5a9c34",
+					"circle-radius": 6,
+					"circle-stroke-width": 1,
+					"circle-stroke-color": "#ffffff",
 				},
 			});
 		},
