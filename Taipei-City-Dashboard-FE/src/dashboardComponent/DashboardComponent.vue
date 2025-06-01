@@ -466,8 +466,12 @@ function toggleCluster(map_config) {
 				"
 				@fly="(location) => $emit('fly', location)"
 			/>
-			<p>{{ filterRange }}</p>
-			<RangeSlider :min="0" :max="100" v-model="filterRange" />
+			<RangeSlider
+				:min="0"
+				:max="100"
+				v-model="filterRange"
+				v-if="config.name === 'YouBike使用情況'"
+			/>
 			<label class="toggleswitch">
 				<p>聚合</p>
 				<input
