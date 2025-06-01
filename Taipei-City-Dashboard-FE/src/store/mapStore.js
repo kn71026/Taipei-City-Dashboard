@@ -1063,6 +1063,115 @@ export const useMapStore = defineStore("map", {
 				source: "geojson",
 			};
 			this.addMapLayer(new_map_config);
+
+			// Step 4: Prepare points data
+			const fakeParks = {
+				type: "FeatureCollection",
+				features: [
+					{
+						type: "Feature",
+						geometry: {
+							type: "Point",
+							coordinates: [121.53, 25.045],
+						},
+						properties: { name: "青年公園" },
+					},
+					{
+						type: "Feature",
+						geometry: {
+							type: "Point",
+							coordinates: [121.59, 25.035],
+						},
+						properties: { name: "大安森林公園" },
+					},
+					{
+						type: "Feature",
+						geometry: {
+							type: "Point",
+							coordinates: [121.48, 25.02],
+						},
+						properties: { name: "大龍峒公園" },
+					},
+				],
+			};
+
+			function enrichParksWithUV(
+				parkPoints,
+				scalarField,
+				lngStart,
+				latStart,
+				gridSize,
+				rowN,
+				colN
+			) {
+				return {
+					...parkPoints,
+					features: parkPoints.features.map((f) => {
+						const [lng, lat] = f.geometry.coordinates;
+						const xIdx = Math.floor((lng - lngStart) / gridSize);
+						const yIdx = Math.floor((lat - latStart) / gridSize);
+
+						let uv = null;
+						if (
+							xIdx >= 0 &&
+							xIdx < colN &&
+							yIdx >= 0 &&
+							yIdx < rowN
+						) {
+							uv = scalarField[yIdx][xIdx];
+						}
+
+						return {
+							...f,
+							properties: {
+								...f.properties,
+								uv_index: uv,
+							},
+						};
+					}),
+				};
+			}
+
+			const uvColorStep = [
+				"step",
+				["get", "uv_index"],
+				"#A8E05F", // <3
+				3,
+				"#FDD64B", // 3-5
+				6,
+				"#FFA700", // 6-7
+				8,
+				"#F95C38", // 8-10
+				11,
+				"#D8001D", // 11+
+			];
+
+			const enrichedParks = enrichParksWithUV(
+				fakeParks,
+				discreteData,
+				lngStart,
+				latStart,
+				gridSize,
+				rowN,
+				colN
+			);
+
+			this.map.addSource("uv-park-source", {
+				type: "geojson",
+				data: enrichedParks, // ← 上一步算出來的 enriched 資料
+			});
+
+			this.map.addLayer({
+				id: "uv-parks",
+				type: "circle",
+				source: "uv-park-source",
+				paint: {
+					"circle-radius": 10,
+					"circle-color": uvColorStep,
+					"circle-stroke-width": 1,
+					"circle-stroke-color": "#ffffff",
+				},
+			});
 		},
 		//  5. Turn on the visibility for a exisiting map layer
 		turnOnMapLayerVisibility(mapLayerId) {
@@ -1096,6 +1205,12 @@ export const useMapStore = defineStore("map", {
 				this.currentVisibleLayers = this.currentVisibleLayers.filter(
 					(element) => element !== mapLayerId
 				);
+				if (
+					mapLayerId.startsWith("uv_") &&
+					this.map.getLayer("uv-parks")
+				) {
+					this.map.removeLayer("uv-parks");
+				}
 			});
 			this.removePopup();
 		},
