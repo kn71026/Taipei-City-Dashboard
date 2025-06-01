@@ -1,185 +1,68 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "StationName": "陽明山",
-        "StationId": "466930",
-        "ObsTime": "2025-05-31T19:00:00+08:00",
-        "District": "北投區",
-        "City": "臺北市",
-        "DistrictCode": "63000120",
-        "CityCode": "63000",
-        "UVIndex": "4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.544547,
-          25.162078
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "StationName": "鞍部",
-        "StationId": "466910",
-        "ObsTime": "2025-05-31T19:00:00+08:00",
-        "District": "北投區",
-        "City": "臺北市",
-        "DistrictCode": "63000120",
-        "CityCode": "63000",
-        "UVIndex": "1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.529731,
-          25.182586
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "StationName": "臺北",
-        "StationId": "466920",
-        "ObsTime": "2025-05-31T19:00:00+08:00",
-        "District": "中正區",
-        "City": "臺北市",
-        "DistrictCode": "63000050",
-        "CityCode": "63000",
-        "UVIndex": "11"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.514853,
-          25.037658
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "StationName": "大安森林",
-        "StationId": "CAAH60",
-        "ObsTime": "2025-05-31T19:00:00+08:00",
-        "District": "大安區",
-        "City": "臺北市",
-        "DistrictCode": "63000030",
-        "CityCode": "63000",
-        "UVIndex": "5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.53628,
-          25.02955
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "StationName": "文化大學",
-        "StationId": "A0A460",
-        "ObsTime": "2025-05-31T19:00:00+08:00",
-        "District": "士林區",
-        "City": "臺北市",
-        "DistrictCode": "63000110",
-        "CityCode": "63000",
-        "UVIndex": "6"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.53987,
-          25.13605
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "StationName": "臺灣大學",
-        "StationId": "A0A010",
-        "ObsTime": "2025-05-31T19:00:00+08:00",
-        "District": "大安區",
-        "City": "臺北市",
-        "DistrictCode": "63000030",
-        "CityCode": "63000",
-        "UVIndex": "3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.539416,
-          25.014278
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "StationName": "台農院關渡站",
-        "StationId": "G2AI50",
-        "ObsTime": "2025-05-31T19:00:00+08:00",
-        "District": "北投區",
-        "City": "臺北市",
-        "DistrictCode": "63000120",
-        "CityCode": "63000",
-        "UVIndex": "5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.492,
-          25.11575
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "StationName": "國三甲005K",
-        "StationId": "CAA090",
-        "ObsTime": "2025-05-31T19:00:00+08:00",
-        "District": "文山區",
-        "City": "臺北市",
-        "DistrictCode": "63000080",
-        "CityCode": "63000",
-        "UVIndex": "6"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.5975,
-          25.00194
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "StationName": "國三S016K",
-        "StationId": "CAA040",
-        "ObsTime": "2025-05-31T19:00:00+08:00",
-        "District": "南港區",
-        "City": "臺北市",
-        "DistrictCode": "63000090",
-        "CityCode": "63000",
-        "UVIndex": "2"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.6158,
-          25.03306
-        ]
-      }
-    }
-  ]
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"StationName": "陽明山",
+				"StationId": "466930",
+				"ObsTime": "2025-06-01T09:30:00+08:00",
+				"District": "北投區",
+				"City": "臺北市",
+				"DistrictCode": "63000120",
+				"CityCode": "63000",
+				"UVIndex": "6",
+				"UVLevel": "高量級"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.544547,
+					25.162078
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"StationName": "鞍部",
+				"StationId": "466910",
+				"ObsTime": "2025-06-01T09:30:00+08:00",
+				"District": "北投區",
+				"City": "臺北市",
+				"DistrictCode": "63000120",
+				"CityCode": "63000",
+				"UVIndex": "7",
+				"UVLevel": "高量級"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.529731,
+					25.182586
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"StationName": "臺北",
+				"StationId": "466920",
+				"ObsTime": "2025-06-01T09:30:00+08:00",
+				"District": "中正區",
+				"City": "臺北市",
+				"DistrictCode": "63000050",
+				"CityCode": "63000",
+				"UVIndex": "6",
+				"UVLevel": "高量級"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					121.514853,
+					25.037658
+				]
+			}
+		}
+	]
 }
