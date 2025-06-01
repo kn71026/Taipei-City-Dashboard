@@ -14,6 +14,7 @@ import IncidentReport from "../dialogs/IncidentReport.vue";
 import FindClosestPoint from "../dialogs/FindClosestPoint.vue";
 import SelectedFeatureReport from "../dialogs/SelectedFeatureReport.vue";
 import ExportMap from "../dialogs/ExportMap.vue";
+import TimeSlider from "../../dashboardComponent/components/TimeSlider.vue";
 import { savedLocations } from "../../assets/configs/mapbox/savedLocations.js";
 
 const authStore = useAuthStore();
@@ -69,6 +70,8 @@ onMounted(() => {
 		? mapStore.updateMapViewForCity(route.query.city)
 		: mapStore.updateMapViewForCity("default");
 });
+
+const showTimeSlider = ref(false);
 </script>
 
 <template>
@@ -131,6 +134,18 @@ onMounted(() => {
 				</button>
 
 				<button
+					:style="{
+						color: showTimeSlider
+							? 'var(--color-highlight)'
+							: 'var(--color-component-background)',
+					}"
+					@click="showTimeSlider = !showTimeSlider"
+					title="時間控制"
+				>
+					<span class="material-icons">access_time</span>
+				</button>
+
+				<button
 					v-if="canUseFindClosestPoint"
 					:style="{
 						color: villageLayer
@@ -170,6 +185,10 @@ onMounted(() => {
 			<FindClosestPoint />
 			<SelectedFeatureReport />
 			<ExportMap />
+			<!-- 放在 .mapcontainer-map 裡面最底部 -->
+			<div v-if="showTimeSlider" class="map-time-slider">
+				<TimeSlider />
+			</div>
 		</div>
 
 		<div class="mapcontainer-controls hide-if-mobile">
@@ -400,5 +419,14 @@ onMounted(() => {
 	100% {
 		color: var(--color-complement-text);
 	}
+}
+
+.map-time-slider {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 50;
+	background: var(--color-background);
 }
 </style>
